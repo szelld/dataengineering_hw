@@ -8,3 +8,5 @@ __pycache__/
 # Local data artifacts
 logs/
 *.log
+data/processed
+data/raw

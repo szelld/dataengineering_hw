@@ -33,3 +33,14 @@ CREATE TABLE IF NOT EXISTS fact_market_sentiment (
     CONSTRAINT fact_market_sentiment_date_fk FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
     CONSTRAINT fact_market_sentiment_company_fk FOREIGN KEY (ticker_id) REFERENCES dim_company(ticker_id)
 );
+
+CREATE TABLE IF NOT EXISTS fact_news_sentiment (
+    date_key DATE NOT NULL,
+    ticker_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    sentiment_score NUMERIC(6, 4),
+    updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW(),
+    CONSTRAINT fact_news_sentiment_pk PRIMARY KEY (date_key, ticker_id, title),
+    CONSTRAINT fact_news_sentiment_date_fk FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
+    CONSTRAINT fact_news_sentiment_company_fk FOREIGN KEY (ticker_id) REFERENCES dim_company(ticker_id)
+);

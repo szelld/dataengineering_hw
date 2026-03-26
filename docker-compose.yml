@@ -9,6 +9,7 @@ x-airflow-common:
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${AIRFLOW_DB}
+    AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW__WEBSERVER__SECRET_KEY}
     AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
     AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth
     PYTHONPATH: /opt/airflow
@@ -50,7 +51,8 @@ services:
   airflow-webserver:
     <<: *airflow-common
     container_name: airflow_webserver
-    command: /bin/bash -c "pip install --no-cache-dir -r /requirements.txt && airflow webserver"
+    entrypoint: /bin/bash
+    command: -c "pip install --no-cache-dir -r /requirements.txt && airflow webserver"
     ports:
       - "8080:8080"
     depends_on:
@@ -60,7 +62,8 @@ services:
   airflow-scheduler:
     <<: *airflow-common
     container_name: airflow_scheduler
-    command: /bin/bash -c "pip install --no-cache-dir -r /requirements.txt && airflow scheduler"
+    entrypoint: /bin/bash
+    command: -c "pip install --no-cache-dir -r /requirements.txt && airflow scheduler"
     depends_on:
       airflow-init:
         condition: service_completed_successfully

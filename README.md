@@ -59,6 +59,12 @@ financial_de_pipeline/
 - `news_count`
 - `avg_sentiment_score`
 
+### `fact_news_sentiment`
+- `date_key` (FK -> `dim_date.date_key`)
+- `ticker_id` (FK -> `dim_company.ticker_id`)
+- `title`
+- `sentiment_score`
+
 Primary key on fact table: (`date_key`, `ticker_id`).
 
 ## Prerequisites
@@ -71,6 +77,11 @@ Update `.env` before first run:
 ```env
 ALPHA_VANTAGE_API_KEY=replace_with_real_key
 STOCK_TICKER=AAPL
+STOCK_TICKERS=AAPL,MSFT
+YFINANCE_RETRY_ATTEMPTS=3
+YFINANCE_RETRY_BASE_SECONDS=2
+ALPHA_VANTAGE_RETRY_ATTEMPTS=5
+ALPHA_VANTAGE_RETRY_BASE_SECONDS=15
 POSTGRES_USER=airflow
 POSTGRES_PASSWORD=airflow
 POSTGRES_HOST=postgres
@@ -78,6 +89,34 @@ POSTGRES_PORT=5432
 AIRFLOW_DB=airflow
 WAREHOUSE_DB=market_dw
 METABASE_DB=metabase
+```
+
+`YFINANCE_RETRY_ATTEMPTS` and `YFINANCE_RETRY_BASE_SECONDS` control retry behavior for transient yfinance failures using exponential backoff.
+Default wait sequence is 2s, 4s, 8s when attempts=3 and base=2.
+
+`ALPHA_VANTAGE_RETRY_ATTEMPTS` and `ALPHA_VANTAGE_RETRY_BASE_SECONDS` control Alpha Vantage retry behavior when free-tier rate limits are hit.
+Default wait sequence is 15s, 30s, 60s, ... which is useful for multi-ticker runs.
+
+`STOCK_TICKERS` can be used to process multiple companies in one run. If set, it overrides `STOCK_TICKER`.
+
+### User-friendly ticker updates (no container restart)
+You can change tickers directly in Airflow UI instead of editing `.env`.
+
+Priority order at runtime:
+1. DAG trigger config (`tickers`)
+2. Airflow Variable `stock_tickers`
+3. `.env` (`STOCK_TICKERS`, then `STOCK_TICKER` fallback)
+
+Set from Airflow UI:
+1. Open Admin -> Variables
+2. Add key: `stock_tickers`
+3. Value example: `NVDA,AAPL,AMZN,GOOGL,META,TSLA`
+
+Run-specific override (Trigger DAG -> Config JSON):
+```json
+{
+    "tickers": ["NVDA", "AAPL", "TSLA"]
+}
 ```
 
 ## Run Instructions
@@ -94,7 +133,7 @@ Then open:
 Enable DAG: `financial_market_sentiment_pipeline` and trigger it manually or wait for the daily schedule.
 
 ## DAG Tasks
-- `task_check_api`: verifies market source availability (yfinance and/or Alpha Vantage)
+- `task_check_api`: validates ticker configuration quickly (designed to be fast)
 - `task_extract`: extracts market and daily news data into `data/raw`
 - `task_transform`: cleans, computes sentiment, aggregates by day, merges with market data
 - `task_load`: idempotent upsert into warehouse dimensions and fact table
