@@ -283,6 +283,25 @@ on days when a disaster was actually close to a major city.
 **One row =** one insurance company, on one specific trading day where at least one
 wildfire or severe storm was within 100 km of one of the 10 tracked cities.
 
+### View 4: `vw_la_wildfire_insurance_risk_days`
+
+```sql
+SELECT date_key, ticker, company_name, stock_close_price,
+       active_disaster_count, nearby_disaster_count,
+       nearest_city_name, nearest_disaster_distance_km
+FROM vw_daily_disaster_stock_impact
+WHERE sector = 'Insurance'
+  AND nearest_city_id = 'US-LOS_ANGELES'
+  AND nearby_disaster_count > 0;
+```
+
+**What it is:** A highly specific view focusing exclusively on the project's core use-case: the impact of Los Angeles area disasters on the Insurance sector. 
+
+**Why dates might seem "missing":**
+If you query this view and notice gaps in the Jan 7–14 window (e.g., missing Jan 9 or Jan 13), it is due to two factors:
+1. **Weekends/Holidays:** The pipeline only processes trading days. Jan 11-12 were weekends.
+2. **The "Globally Nearest" Rule:** The pipeline aggregates all relevant disasters ("Wildfires", "Severe Storms") and only stores the *single absolute closest city globally* for each day. If on Jan 10 a severe storm in Miami was 20km away, and the LA wildfire was 36km away, the pipeline records Miami as the `nearest_city` for that day. LA is "masked" by the closer disaster elsewhere.
+
 **Why only 108 rows:**
 - 6 insurance tickers in the dataset
 - 108 / 6 = **18 distinct trading days** had `nearby_disaster_count > 0`
