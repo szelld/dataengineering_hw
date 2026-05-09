@@ -1,0 +1,702 @@
+[
+  {
+    "date": "2026-03-26",
+    "open": 381.6,
+    "close": 372.11,
+    "volume": 55522879,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-25",
+    "open": 389.99,
+    "close": 385.95,
+    "volume": 55157265,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-24",
+    "open": 376.56,
+    "close": 383.03,
+    "volume": 60004909,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-23",
+    "open": 373.09,
+    "close": 380.85,
+    "volume": 74606049,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-20",
+    "open": 379.85,
+    "close": 367.96,
+    "volume": 78628603,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-19",
+    "open": 387.27,
+    "close": 380.3,
+    "volume": 67078259,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-18",
+    "open": 399.0,
+    "close": 392.78,
+    "volume": 50853149,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-17",
+    "open": 395.69,
+    "close": 399.27,
+    "volume": 46890467,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-16",
+    "open": 396.22,
+    "close": 395.56,
+    "volume": 58068343,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-13",
+    "open": 399.165,
+    "close": 391.2,
+    "volume": 58504091,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-12",
+    "open": 405.175,
+    "close": 395.01,
+    "volume": 60973793,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-11",
+    "open": 402.28,
+    "close": 407.82,
+    "volume": 62559930,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-10",
+    "open": 402.22,
+    "close": 399.235,
+    "volume": 59258743,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-09",
+    "open": 390.05,
+    "close": 398.68,
+    "volume": 67018911,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-06",
+    "open": 398.09,
+    "close": 396.73,
+    "volume": 64054561,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-05",
+    "open": 401.57,
+    "close": 405.55,
+    "volume": 51925898,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-04",
+    "open": 397.845,
+    "close": 405.94,
+    "volume": 68305513,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-03",
+    "open": 395.09,
+    "close": 392.43,
+    "volume": 62617298,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-03-02",
+    "open": 390.6,
+    "close": 403.32,
+    "volume": 55088338,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-27",
+    "open": 402.94,
+    "close": 402.51,
+    "volume": 56890097,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-26",
+    "open": 414.42,
+    "close": 408.58,
+    "volume": 53602497,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-25",
+    "open": 412.15,
+    "close": 417.4,
+    "volume": 54809704,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-24",
+    "open": 399.5,
+    "close": 409.38,
+    "volume": 58579482,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-23",
+    "open": 407.285,
+    "close": 399.83,
+    "volume": 69680026,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-20",
+    "open": 408.3,
+    "close": 411.82,
+    "volume": 57912225,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-19",
+    "open": 407.25,
+    "close": 411.71,
+    "volume": 51019638,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-18",
+    "open": 411.11,
+    "close": 411.32,
+    "volume": 45921402,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-17",
+    "open": 412.36,
+    "close": 410.63,
+    "volume": 59678789,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-13",
+    "open": 414.305,
+    "close": 417.44,
+    "volume": 51434147,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-12",
+    "open": 430.3,
+    "close": 417.07,
+    "volume": 61933359,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-11",
+    "open": 427.955,
+    "close": 428.27,
+    "volume": 57361989,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-10",
+    "open": 418.08,
+    "close": 425.21,
+    "volume": 64450233,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-09",
+    "open": 409.905,
+    "close": 417.32,
+    "volume": 54484258,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-06",
+    "open": 400.87,
+    "close": 411.11,
+    "volume": 62677144,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-05",
+    "open": 397.015,
+    "close": 397.21,
+    "volume": 72819838,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-04",
+    "open": 420.46,
+    "close": 406.01,
+    "volume": 74606873,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-03",
+    "open": 424.27,
+    "close": 421.96,
+    "volume": 56269638,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-02-02",
+    "open": 421.29,
+    "close": 421.81,
+    "volume": 58739455,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-30",
+    "open": 425.35,
+    "close": 430.41,
+    "volume": 82626066,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-29",
+    "open": 437.8,
+    "close": 416.56,
+    "volume": 81686127,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-28",
+    "open": 431.91,
+    "close": 431.46,
+    "volume": 54857403,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-27",
+    "open": 437.41,
+    "close": 430.9,
+    "volume": 37321502,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-26",
+    "open": 445.0,
+    "close": 435.2,
+    "volume": 49397415,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-23",
+    "open": 447.425,
+    "close": 449.06,
+    "volume": 56771364,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-22",
+    "open": 435.16,
+    "close": 449.36,
+    "volume": 71546729,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-21",
+    "open": 421.66,
+    "close": 431.44,
+    "volume": 68123987,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-20",
+    "open": 429.36,
+    "close": 419.25,
+    "volume": 62208186,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-16",
+    "open": 439.5,
+    "close": 437.5,
+    "volume": 60220551,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-15",
+    "open": 441.125,
+    "close": 438.57,
+    "volume": 49465813,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-14",
+    "open": 442.81,
+    "close": 439.2,
+    "volume": 57259500,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-13",
+    "open": 450.2,
+    "close": 447.2,
+    "volume": 53719214,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-12",
+    "open": 441.225,
+    "close": 448.96,
+    "volume": 61649627,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-09",
+    "open": 435.945,
+    "close": 445.01,
+    "volume": 67331456,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-08",
+    "open": 427.89,
+    "close": 435.8,
+    "volume": 57041094,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-07",
+    "open": 435.9,
+    "close": 431.41,
+    "volume": 59828790,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-06",
+    "open": 446.38,
+    "close": 432.96,
+    "volume": 89093758,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-05",
+    "open": 447.99,
+    "close": 451.67,
+    "volume": 67940839,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2026-01-02",
+    "open": 457.8,
+    "close": 438.07,
+    "volume": 85535406,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-31",
+    "open": 456.1,
+    "close": 449.72,
+    "volume": 49077961,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-30",
+    "open": 461.09,
+    "close": 454.43,
+    "volume": 59238464,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-29",
+    "open": 469.0,
+    "close": 459.64,
+    "volume": 66263033,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-26",
+    "open": 485.23,
+    "close": 475.19,
+    "volume": 58780659,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-24",
+    "open": 488.48,
+    "close": 485.4,
+    "volume": 41285429,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-23",
+    "open": 489.395,
+    "close": 485.56,
+    "volume": 58223633,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-22",
+    "open": 489.88,
+    "close": 488.73,
+    "volume": 86916066,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-19",
+    "open": 488.12,
+    "close": 481.2,
+    "volume": 103305424,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-18",
+    "open": 478.16,
+    "close": 483.37,
+    "volume": 95168446,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-17",
+    "open": 488.22,
+    "close": 467.26,
+    "volume": 106490405,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-16",
+    "open": 472.21,
+    "close": 489.88,
+    "volume": 107608075,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-15",
+    "open": 469.44,
+    "close": 475.31,
+    "volume": 114542204,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-12",
+    "open": 448.09,
+    "close": 458.96,
+    "volume": 95656749,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-11",
+    "open": 448.945,
+    "close": 446.89,
+    "volume": 55979492,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-10",
+    "open": 446.065,
+    "close": 451.45,
+    "volume": 63257475,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-09",
+    "open": 437.54,
+    "close": 445.17,
+    "volume": 62014951,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-08",
+    "open": 447.445,
+    "close": 439.58,
+    "volume": 68386756,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-05",
+    "open": 453.03,
+    "close": 455.0,
+    "volume": 56427522,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-04",
+    "open": 449.94,
+    "close": 454.53,
+    "volume": 71906488,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-03",
+    "open": 432.1,
+    "close": 446.74,
+    "volume": 87482964,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-02",
+    "open": 430.81,
+    "close": 429.24,
+    "volume": 69336626,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-12-01",
+    "open": 425.32,
+    "close": 430.14,
+    "volume": 57463552,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-28",
+    "open": 426.59,
+    "close": 430.17,
+    "volume": 36252861,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-26",
+    "open": 423.95,
+    "close": 426.58,
+    "volume": 63462996,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-25",
+    "open": 414.42,
+    "close": 419.4,
+    "volume": 71915624,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-24",
+    "open": 402.17,
+    "close": 417.78,
+    "volume": 96806374,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-21",
+    "open": 402.32,
+    "close": 391.09,
+    "volume": 100460633,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-20",
+    "open": 414.63,
+    "close": 395.23,
+    "volume": 113548827,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-19",
+    "open": 406.18,
+    "close": 403.99,
+    "volume": 72047704,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-18",
+    "open": 405.38,
+    "close": 401.25,
+    "volume": 80688637,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-17",
+    "open": 398.74,
+    "close": 408.92,
+    "volume": 102214259,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-14",
+    "open": 386.3,
+    "close": 404.35,
+    "volume": 105506682,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-13",
+    "open": 423.13,
+    "close": 401.99,
+    "volume": 118948032,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-12",
+    "open": 442.15,
+    "close": 430.6,
+    "volume": 58513520,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-11",
+    "open": 439.4,
+    "close": 439.62,
+    "volume": 60533237,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-10",
+    "open": 439.6,
+    "close": 445.23,
+    "volume": 76515907,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-07",
+    "open": 437.92,
+    "close": 429.52,
+    "volume": 103471495,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-06",
+    "open": 461.96,
+    "close": 445.91,
+    "volume": 109622907,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-05",
+    "open": 452.05,
+    "close": 462.07,
+    "volume": 84911911,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-04",
+    "open": 454.46,
+    "close": 444.26,
+    "volume": 87756644,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-11-03",
+    "open": 455.99,
+    "close": 468.37,
+    "volume": 84595244,
+    "ticker": "TSLA"
+  },
+  {
+    "date": "2025-10-31",
+    "open": 446.75,
+    "close": 456.56,
+    "volume": 83135787,
+    "ticker": "TSLA"
+  }
+]

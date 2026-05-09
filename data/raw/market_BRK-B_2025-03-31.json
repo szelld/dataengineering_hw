@@ -1,0 +1,1822 @@
+[
+  {
+    "date": "2024-03-18",
+    "open": 408.7,
+    "close": 408.41,
+    "volume": 3778561,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-19",
+    "open": 409.08,
+    "close": 411.76,
+    "volume": 2804025,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-20",
+    "open": 412.02,
+    "close": 416.11,
+    "volume": 2935528,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-21",
+    "open": 416.7,
+    "close": 413.78,
+    "volume": 3402874,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-22",
+    "open": 413.0,
+    "close": 411.6,
+    "volume": 3000546,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-25",
+    "open": 410.67,
+    "close": 409.92,
+    "volume": 2808910,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-26",
+    "open": 410.0,
+    "close": 411.57,
+    "volume": 2936406,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-27",
+    "open": 413.65,
+    "close": 416.93,
+    "volume": 2929158,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-03-28",
+    "open": 417.8,
+    "close": 420.52,
+    "volume": 4378770,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-01",
+    "open": 421.49,
+    "close": 420.2,
+    "volume": 2718872,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-02",
+    "open": 419.75,
+    "close": 418.92,
+    "volume": 3175139,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-03",
+    "open": 419.0,
+    "close": 420.24,
+    "volume": 2742174,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-04",
+    "open": 423.84,
+    "close": 415.32,
+    "volume": 3802994,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-05",
+    "open": 416.56,
+    "close": 418.62,
+    "volume": 2739587,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-08",
+    "open": 418.32,
+    "close": 415.97,
+    "volume": 2486651,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-09",
+    "open": 416.58,
+    "close": 414.69,
+    "volume": 2234137,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-10",
+    "open": 412.74,
+    "close": 409.11,
+    "volume": 3125230,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-11",
+    "open": 408.4,
+    "close": 407.61,
+    "volume": 2891952,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-12",
+    "open": 405.0,
+    "close": 403.26,
+    "volume": 3469707,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-15",
+    "open": 406.99,
+    "close": 400.26,
+    "volume": 3004477,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-16",
+    "open": 400.97,
+    "close": 396.92,
+    "volume": 3438078,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-17",
+    "open": 398.94,
+    "close": 397.74,
+    "volume": 2466391,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-18",
+    "open": 399.7,
+    "close": 399.89,
+    "volume": 2672415,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-19",
+    "open": 401.04,
+    "close": 405.08,
+    "volume": 3995947,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-22",
+    "open": 406.84,
+    "close": 408.78,
+    "volume": 2981614,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-23",
+    "open": 410.25,
+    "close": 408.74,
+    "volume": 2288595,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-24",
+    "open": 407.1,
+    "close": 405.95,
+    "volume": 2508495,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-25",
+    "open": 404.85,
+    "close": 404.91,
+    "volume": 2676009,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-26",
+    "open": 403.92,
+    "close": 402.1,
+    "volume": 3025406,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-29",
+    "open": 402.66,
+    "close": 400.96,
+    "volume": 2365421,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-04-30",
+    "open": 400.58,
+    "close": 396.73,
+    "volume": 3074765,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-01",
+    "open": 396.61,
+    "close": 398.58,
+    "volume": 2606198,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-02",
+    "open": 401.0,
+    "close": 400.6,
+    "volume": 2679740,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-03",
+    "open": 404.5,
+    "close": 400.87,
+    "volume": 4130994,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-06",
+    "open": 403.96,
+    "close": 404.92,
+    "volume": 3920908,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-07",
+    "open": 406.93,
+    "close": 406.14,
+    "volume": 3085702,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-08",
+    "open": 406.47,
+    "close": 406.37,
+    "volume": 2399639,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-09",
+    "open": 406.25,
+    "close": 408.82,
+    "volume": 2358862,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-10",
+    "open": 409.85,
+    "close": 412.05,
+    "volume": 3087837,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-13",
+    "open": 414.06,
+    "close": 411.22,
+    "volume": 2711154,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-14",
+    "open": 410.45,
+    "close": 410.24,
+    "volume": 2674407,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-15",
+    "open": 410.51,
+    "close": 412.76,
+    "volume": 2857594,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-16",
+    "open": 413.8,
+    "close": 413.12,
+    "volume": 3550693,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-17",
+    "open": 413.98,
+    "close": 416.94,
+    "volume": 2990028,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-20",
+    "open": 417.04,
+    "close": 413.0,
+    "volume": 3292715,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-21",
+    "open": 413.59,
+    "close": 414.37,
+    "volume": 2740759,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-22",
+    "open": 414.95,
+    "close": 413.99,
+    "volume": 2673507,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-23",
+    "open": 413.25,
+    "close": 405.88,
+    "volume": 3398121,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-24",
+    "open": 406.9,
+    "close": 407.41,
+    "volume": 2068921,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-28",
+    "open": 408.24,
+    "close": 403.9,
+    "volume": 3321863,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-29",
+    "open": 403.0,
+    "close": 404.09,
+    "volume": 3428787,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-30",
+    "open": 403.77,
+    "close": 408.61,
+    "volume": 2907090,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-05-31",
+    "open": 408.09,
+    "close": 414.4,
+    "volume": 5197520,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-03",
+    "open": 414.89,
+    "close": 414.79,
+    "volume": 4905810,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-04",
+    "open": 414.85,
+    "close": 409.53,
+    "volume": 4157980,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-05",
+    "open": 410.1,
+    "close": 409.85,
+    "volume": 2643906,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-06",
+    "open": 410.42,
+    "close": 411.08,
+    "volume": 3447914,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-07",
+    "open": 411.28,
+    "close": 413.72,
+    "volume": 2943072,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-10",
+    "open": 413.34,
+    "close": 410.81,
+    "volume": 2668443,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-11",
+    "open": 408.88,
+    "close": 408.5,
+    "volume": 3610600,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-12",
+    "open": 411.09,
+    "close": 408.77,
+    "volume": 3554031,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-13",
+    "open": 407.63,
+    "close": 405.92,
+    "volume": 4566105,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-14",
+    "open": 404.9,
+    "close": 405.54,
+    "volume": 2772449,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-17",
+    "open": 405.18,
+    "close": 407.32,
+    "volume": 3408255,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-18",
+    "open": 406.745,
+    "close": 407.95,
+    "volume": 4006848,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-20",
+    "open": 407.25,
+    "close": 409.15,
+    "volume": 4845563,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-21",
+    "open": 409.82,
+    "close": 409.62,
+    "volume": 9012935,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-24",
+    "open": 410.7,
+    "close": 413.98,
+    "volume": 4935716,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-25",
+    "open": 414.0,
+    "close": 410.97,
+    "volume": 3883522,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-26",
+    "open": 410.02,
+    "close": 410.26,
+    "volume": 3335507,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-27",
+    "open": 410.26,
+    "close": 407.95,
+    "volume": 3220281,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-06-28",
+    "open": 408.25,
+    "close": 406.8,
+    "volume": 6820908,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-01",
+    "open": 408.09,
+    "close": 405.19,
+    "volume": 2976899,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-02",
+    "open": 404.02,
+    "close": 407.1,
+    "volume": 3221572,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-03",
+    "open": 407.16,
+    "close": 405.77,
+    "volume": 1970259,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-05",
+    "open": 406.24,
+    "close": 411.17,
+    "volume": 5153464,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-08",
+    "open": 411.27,
+    "close": 409.08,
+    "volume": 3559529,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-09",
+    "open": 409.42,
+    "close": 410.52,
+    "volume": 2990262,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-10",
+    "open": 410.81,
+    "close": 413.79,
+    "volume": 3791805,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-11",
+    "open": 413.99,
+    "close": 418.78,
+    "volume": 4073570,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-12",
+    "open": 420.23,
+    "close": 424.44,
+    "volume": 4834635,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-15",
+    "open": 425.59,
+    "close": 434.42,
+    "volume": 4594912,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-16",
+    "open": 437.4,
+    "close": 438.9,
+    "volume": 4293707,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-17",
+    "open": 437.85,
+    "close": 445.61,
+    "volume": 4776601,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-18",
+    "open": 445.62,
+    "close": 441.82,
+    "volume": 4638333,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-19",
+    "open": 442.67,
+    "close": 434.47,
+    "volume": 4158849,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-22",
+    "open": 435.05,
+    "close": 435.98,
+    "volume": 2995689,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-23",
+    "open": 437.34,
+    "close": 434.01,
+    "volume": 2393018,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-24",
+    "open": 433.99,
+    "close": 432.8,
+    "volume": 3143717,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-25",
+    "open": 431.6,
+    "close": 433.29,
+    "volume": 3334269,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-26",
+    "open": 435.66,
+    "close": 437.66,
+    "volume": 2717621,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-29",
+    "open": 438.01,
+    "close": 438.31,
+    "volume": 2619986,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-30",
+    "open": 439.51,
+    "close": 441.26,
+    "volume": 3736411,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-07-31",
+    "open": 439.85,
+    "close": 438.5,
+    "volume": 3798765,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-01",
+    "open": 439.67,
+    "close": 431.81,
+    "volume": 3892292,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-02",
+    "open": 429.77,
+    "close": 428.36,
+    "volume": 4251527,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-05",
+    "open": 413.43,
+    "close": 413.72,
+    "volume": 7695125,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-06",
+    "open": 416.41,
+    "close": 422.14,
+    "volume": 5138707,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-07",
+    "open": 426.07,
+    "close": 427.02,
+    "volume": 4745587,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-08",
+    "open": 429.24,
+    "close": 431.54,
+    "volume": 3149984,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-09",
+    "open": 431.92,
+    "close": 431.67,
+    "volume": 2602645,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-12",
+    "open": 434.16,
+    "close": 430.39,
+    "volume": 2376042,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-13",
+    "open": 431.83,
+    "close": 432.41,
+    "volume": 3471965,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-14",
+    "open": 433.0,
+    "close": 438.47,
+    "volume": 2860174,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-15",
+    "open": 441.8,
+    "close": 440.84,
+    "volume": 3226437,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-16",
+    "open": 441.55,
+    "close": 444.51,
+    "volume": 3344974,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-19",
+    "open": 446.01,
+    "close": 448.77,
+    "volume": 3385343,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-20",
+    "open": 449.3,
+    "close": 448.36,
+    "volume": 2906497,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-21",
+    "open": 449.84,
+    "close": 446.6,
+    "volume": 3028530,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-22",
+    "open": 446.3,
+    "close": 449.03,
+    "volume": 3502793,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-23",
+    "open": 450.0,
+    "close": 453.38,
+    "volume": 2805379,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-26",
+    "open": 455.305,
+    "close": 454.49,
+    "volume": 3578262,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-27",
+    "open": 455.94,
+    "close": 460.63,
+    "volume": 3764691,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-28",
+    "open": 461.17,
+    "close": 464.59,
+    "volume": 4838124,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-29",
+    "open": 467.11,
+    "close": 468.37,
+    "volume": 4459412,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-08-30",
+    "open": 470.52,
+    "close": 475.92,
+    "volume": 7465778,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-03",
+    "open": 475.0,
+    "close": 476.83,
+    "volume": 7511879,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-04",
+    "open": 478.68,
+    "close": 478.57,
+    "volume": 5316318,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-05",
+    "open": 479.43,
+    "close": 464.92,
+    "volume": 6213155,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-06",
+    "open": 463.82,
+    "close": 459.42,
+    "volume": 4400294,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-09",
+    "open": 463.97,
+    "close": 459.61,
+    "volume": 4571041,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-10",
+    "open": 461.82,
+    "close": 458.92,
+    "volume": 3544103,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-11",
+    "open": 457.62,
+    "close": 453.1,
+    "volume": 5772729,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-12",
+    "open": 454.84,
+    "close": 450.87,
+    "volume": 3855713,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-13",
+    "open": 451.58,
+    "close": 447.61,
+    "volume": 3882598,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-16",
+    "open": 448.8,
+    "close": 451.78,
+    "volume": 3264367,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-17",
+    "open": 453.5,
+    "close": 456.68,
+    "volume": 3824256,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-18",
+    "open": 458.08,
+    "close": 456.6,
+    "volume": 3065217,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-19",
+    "open": 462.0,
+    "close": 459.71,
+    "volume": 3891344,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-20",
+    "open": 457.76,
+    "close": 455.31,
+    "volume": 8468764,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-23",
+    "open": 457.31,
+    "close": 454.98,
+    "volume": 3485083,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-24",
+    "open": 454.33,
+    "close": 454.56,
+    "volume": 3009852,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-25",
+    "open": 454.9,
+    "close": 452.36,
+    "volume": 2843311,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-26",
+    "open": 452.74,
+    "close": 454.18,
+    "volume": 3262045,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-27",
+    "open": 456.04,
+    "close": 457.47,
+    "volume": 2727975,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-09-30",
+    "open": 458.4,
+    "close": 460.26,
+    "volume": 3637071,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-01",
+    "open": 459.11,
+    "close": 457.41,
+    "volume": 3043696,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-02",
+    "open": 458.7,
+    "close": 456.67,
+    "volume": 2803429,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-03",
+    "open": 455.47,
+    "close": 452.96,
+    "volume": 2564713,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-04",
+    "open": 455.01,
+    "close": 461.97,
+    "volume": 3093491,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-07",
+    "open": 462.34,
+    "close": 453.5,
+    "volume": 3222061,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-08",
+    "open": 455.96,
+    "close": 453.8,
+    "volume": 2234137,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-09",
+    "open": 452.75,
+    "close": 455.9,
+    "volume": 2206063,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-10",
+    "open": 457.5,
+    "close": 454.93,
+    "volume": 2375788,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-11",
+    "open": 455.9,
+    "close": 460.21,
+    "volume": 3243402,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-14",
+    "open": 461.92,
+    "close": 459.98,
+    "volume": 2969790,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-15",
+    "open": 460.99,
+    "close": 462.68,
+    "volume": 3929879,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-16",
+    "open": 463.25,
+    "close": 465.69,
+    "volume": 3166265,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-17",
+    "open": 466.1,
+    "close": 465.85,
+    "volume": 2520903,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-18",
+    "open": 467.0,
+    "close": 464.8,
+    "volume": 5635463,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-21",
+    "open": 464.53,
+    "close": 464.16,
+    "volume": 3131480,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-22",
+    "open": 464.11,
+    "close": 461.45,
+    "volume": 3315151,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-23",
+    "open": 460.15,
+    "close": 460.61,
+    "volume": 3655203,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-24",
+    "open": 460.9,
+    "close": 457.77,
+    "volume": 3793479,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-25",
+    "open": 458.6,
+    "close": 454.01,
+    "volume": 2838884,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-28",
+    "open": 455.59,
+    "close": 458.49,
+    "volume": 4103359,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-29",
+    "open": 458.6,
+    "close": 454.62,
+    "volume": 3985180,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-30",
+    "open": 454.67,
+    "close": 454.96,
+    "volume": 2692082,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-10-31",
+    "open": 455.19,
+    "close": 450.92,
+    "volume": 3660308,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-01",
+    "open": 451.49,
+    "close": 452.14,
+    "volume": 2971342,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-04",
+    "open": 450.37,
+    "close": 442.29,
+    "volume": 5733184,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-05",
+    "open": 442.29,
+    "close": 445.06,
+    "volume": 3154357,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-06",
+    "open": 461.0,
+    "close": 468.9,
+    "volume": 6906833,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-07",
+    "open": 468.27,
+    "close": 460.13,
+    "volume": 4237986,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-08",
+    "open": 461.98,
+    "close": 463.41,
+    "volume": 3541302,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-11",
+    "open": 466.01,
+    "close": 467.36,
+    "volume": 4119111,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-12",
+    "open": 467.69,
+    "close": 466.29,
+    "volume": 4400521,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-13",
+    "open": 466.41,
+    "close": 468.1,
+    "volume": 2861709,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-14",
+    "open": 468.81,
+    "close": 467.7,
+    "volume": 3777267,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-15",
+    "open": 466.74,
+    "close": 470.28,
+    "volume": 5817672,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-18",
+    "open": 470.98,
+    "close": 472.2,
+    "volume": 3358434,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-19",
+    "open": 470.77,
+    "close": 468.86,
+    "volume": 3656243,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-20",
+    "open": 470.15,
+    "close": 468.83,
+    "volume": 3019456,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-21",
+    "open": 469.445,
+    "close": 472.06,
+    "volume": 4116801,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-22",
+    "open": 472.27,
+    "close": 476.57,
+    "volume": 3885177,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-25",
+    "open": 479.13,
+    "close": 477.43,
+    "volume": 5246561,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-26",
+    "open": 478.2,
+    "close": 478.56,
+    "volume": 3331974,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-27",
+    "open": 481.0,
+    "close": 483.08,
+    "volume": 5359291,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-11-29",
+    "open": 486.0,
+    "close": 483.02,
+    "volume": 2969703,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-02",
+    "open": 484.8,
+    "close": 477.33,
+    "volume": 5031497,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-03",
+    "open": 478.16,
+    "close": 470.19,
+    "volume": 4931573,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-04",
+    "open": 471.24,
+    "close": 468.32,
+    "volume": 3941100,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-05",
+    "open": 468.78,
+    "close": 470.57,
+    "volume": 3320231,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-06",
+    "open": 471.2,
+    "close": 470.5,
+    "volume": 3270943,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-09",
+    "open": 471.7,
+    "close": 463.87,
+    "volume": 3748171,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-10",
+    "open": 464.42,
+    "close": 462.49,
+    "volume": 3648541,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-11",
+    "open": 463.33,
+    "close": 461.39,
+    "volume": 3876913,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-12",
+    "open": 462.16,
+    "close": 458.63,
+    "volume": 2571349,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-13",
+    "open": 460.5,
+    "close": 457.9,
+    "volume": 3474337,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-16",
+    "open": 459.17,
+    "close": 455.2,
+    "volume": 4513980,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-17",
+    "open": 454.695,
+    "close": 455.66,
+    "volume": 5057506,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-18",
+    "open": 457.06,
+    "close": 446.59,
+    "volume": 4361857,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-19",
+    "open": 451.73,
+    "close": 449.34,
+    "volume": 4645222,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-20",
+    "open": 449.11,
+    "close": 453.2,
+    "volume": 12943914,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-23",
+    "open": 453.19,
+    "close": 454.35,
+    "volume": 3836007,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-24",
+    "open": 455.41,
+    "close": 458.66,
+    "volume": 1761174,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-26",
+    "open": 457.265,
+    "close": 459.08,
+    "volume": 2160799,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-27",
+    "open": 457.3,
+    "close": 456.51,
+    "volume": 3237722,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-30",
+    "open": 454.245,
+    "close": 452.16,
+    "volume": 2831375,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2024-12-31",
+    "open": 452.205,
+    "close": 453.28,
+    "volume": 3380714,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-02",
+    "open": 455.96,
+    "close": 451.1,
+    "volume": 3751194,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-03",
+    "open": 452.53,
+    "close": 453.56,
+    "volume": 2887160,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-06",
+    "open": 453.85,
+    "close": 451.41,
+    "volume": 4072913,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-07",
+    "open": 452.8,
+    "close": 452.92,
+    "volume": 3507166,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-08",
+    "open": 453.63,
+    "close": 451.84,
+    "volume": 3933259,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-10",
+    "open": 452.66,
+    "close": 442.66,
+    "volume": 5471869,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-13",
+    "open": 442.04,
+    "close": 443.91,
+    "volume": 3639248,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-14",
+    "open": 445.0,
+    "close": 450.03,
+    "volume": 4055602,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-15",
+    "open": 455.55,
+    "close": 458.51,
+    "volume": 4719411,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-16",
+    "open": 459.15,
+    "close": 462.81,
+    "volume": 3475694,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-17",
+    "open": 464.71,
+    "close": 467.95,
+    "volume": 6466973,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-21",
+    "open": 471.0,
+    "close": 468.57,
+    "volume": 4910195,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-22",
+    "open": 468.59,
+    "close": 460.51,
+    "volume": 5838478,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-23",
+    "open": 461.68,
+    "close": 459.83,
+    "volume": 4424526,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-24",
+    "open": 459.2,
+    "close": 463.19,
+    "volume": 3070305,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-27",
+    "open": 464.9,
+    "close": 474.7,
+    "volume": 4535629,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-28",
+    "open": 473.93,
+    "close": 469.97,
+    "volume": 3261260,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-29",
+    "open": 469.88,
+    "close": 469.26,
+    "volume": 2524211,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-30",
+    "open": 472.2,
+    "close": 472.35,
+    "volume": 2552240,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-01-31",
+    "open": 471.84,
+    "close": 468.67,
+    "volume": 5442624,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-03",
+    "open": 461.3,
+    "close": 464.61,
+    "volume": 4232007,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-04",
+    "open": 464.94,
+    "close": 467.49,
+    "volume": 3238419,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-05",
+    "open": 469.81,
+    "close": 473.73,
+    "volume": 3782754,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-06",
+    "open": 475.46,
+    "close": 477.22,
+    "volume": 3832693,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-07",
+    "open": 477.41,
+    "close": 472.74,
+    "volume": 3205136,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-10",
+    "open": 473.97,
+    "close": 470.17,
+    "volume": 2907341,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-11",
+    "open": 470.05,
+    "close": 472.61,
+    "volume": 2322610,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-12",
+    "open": 470.44,
+    "close": 471.73,
+    "volume": 3297561,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-13",
+    "open": 471.55,
+    "close": 480.49,
+    "volume": 3274693,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-14",
+    "open": 481.47,
+    "close": 479.59,
+    "volume": 2825755,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-18",
+    "open": 480.4,
+    "close": 482.82,
+    "volume": 3351014,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-19",
+    "open": 482.82,
+    "close": 483.77,
+    "volume": 2436465,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-20",
+    "open": 484.125,
+    "close": 481.8,
+    "volume": 2650957,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-21",
+    "open": 480.95,
+    "close": 478.74,
+    "volume": 4085076,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-24",
+    "open": 483.5,
+    "close": 498.42,
+    "volume": 9861758,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-25",
+    "open": 502.65,
+    "close": 499.82,
+    "volume": 6757512,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-26",
+    "open": 499.115,
+    "close": 494.1,
+    "volume": 3543491,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-27",
+    "open": 496.45,
+    "close": 502.41,
+    "volume": 4507714,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-02-28",
+    "open": 507.46,
+    "close": 513.83,
+    "volume": 6850339,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-03",
+    "open": 516.22,
+    "close": 510.08,
+    "volume": 5112297,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-04",
+    "open": 507.8,
+    "close": 495.86,
+    "volume": 6126619,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-05",
+    "open": 496.0,
+    "close": 498.5,
+    "volume": 4715777,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-06",
+    "open": 496.835,
+    "close": 497.84,
+    "volume": 3989662,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-07",
+    "open": 496.29,
+    "close": 495.62,
+    "volume": 3842150,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-10",
+    "open": 490.03,
+    "close": 497.1,
+    "volume": 6261980,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-11",
+    "open": 496.0,
+    "close": 496.25,
+    "volume": 5358269,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-12",
+    "open": 497.6,
+    "close": 495.94,
+    "volume": 3871096,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-13",
+    "open": 496.3,
+    "close": 504.25,
+    "volume": 5104202,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-14",
+    "open": 506.95,
+    "close": 514.6,
+    "volume": 5775588,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-17",
+    "open": 514.62,
+    "close": 523.01,
+    "volume": 5343389,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-18",
+    "open": 525.45,
+    "close": 523.14,
+    "volume": 4857806,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-19",
+    "open": 526.1,
+    "close": 525.27,
+    "volume": 3797997,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-20",
+    "open": 524.0,
+    "close": 528.73,
+    "volume": 4065426,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-21",
+    "open": 528.31,
+    "close": 521.91,
+    "volume": 8546279,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-24",
+    "open": 523.1,
+    "close": 525.85,
+    "volume": 4858877,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-25",
+    "open": 527.185,
+    "close": 528.87,
+    "volume": 3964761,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-26",
+    "open": 531.0,
+    "close": 533.21,
+    "volume": 5010845,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-27",
+    "open": 533.25,
+    "close": 534.52,
+    "volume": 5154608,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-28",
+    "open": 535.35,
+    "close": 526.31,
+    "volume": 5321395,
+    "ticker": "BRK-B"
+  },
+  {
+    "date": "2025-03-31",
+    "open": 521.4,
+    "close": 532.58,
+    "volume": 7139333,
+    "ticker": "BRK-B"
+  }
+]

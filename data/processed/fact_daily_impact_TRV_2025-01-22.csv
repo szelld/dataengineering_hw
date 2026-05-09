@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-01-22,TRV,246.72,2564629,16,1,US-LOS_ANGELES,Los Angeles,United States,34.0522,-118.2437,61.8,2025,1,22,False,Travelers Companies Inc.,Insurance

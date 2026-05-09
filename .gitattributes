@@ -1,0 +1,7 @@
+# Normalize line endings: store LF in repo, checkout as-is on all platforms
+* text=auto
+
+# Data files: store as binary blobs to avoid line-ending conversion noise
+data/processed/*.csv binary
+data/raw/*.json       binary
+data/raw/*.csv        binary

@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-02-25,BRK-B,499.82,6757512,20,0,US-DENVER,Denver,United States,39.7392,-104.9903,124.8,2025,2,25,False,Berkshire Hathaway Inc. Class B,Insurance

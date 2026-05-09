@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-03-05,PGR,281.86,2485868,4,0,US-SAN_FRANCISCO,San Francisco,United States,37.7749,-122.4194,11093.5,2025,3,5,False,Progressive Corporation,Insurance

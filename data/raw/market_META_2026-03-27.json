@@ -1,0 +1,702 @@
+[
+  {
+    "date": "2026-03-26",
+    "open": 582.49,
+    "close": 547.54,
+    "volume": 35780131,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-25",
+    "open": 598.74,
+    "close": 594.89,
+    "volume": 12585031,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-24",
+    "open": 599.1,
+    "close": 592.92,
+    "volume": 10739742,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-23",
+    "open": 605.787,
+    "close": 604.06,
+    "volume": 13637959,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-20",
+    "open": 603.53,
+    "close": 593.66,
+    "volume": 21214898,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-19",
+    "open": 612.15,
+    "close": 606.7,
+    "volume": 13247696,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-18",
+    "open": 616.34,
+    "close": 615.68,
+    "volume": 11726301,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-17",
+    "open": 627.985,
+    "close": 622.66,
+    "volume": 10348755,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-16",
+    "open": 632.0,
+    "close": 627.45,
+    "volume": 15134852,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-13",
+    "open": 623.89,
+    "close": 613.71,
+    "volume": 18957637,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-12",
+    "open": 648.75,
+    "close": 638.18,
+    "volume": 11617485,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-11",
+    "open": 654.76,
+    "close": 654.86,
+    "volume": 8977162,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-10",
+    "open": 653.56,
+    "close": 654.07,
+    "volume": 9859250,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-09",
+    "open": 634.78,
+    "close": 647.39,
+    "volume": 13489742,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-06",
+    "open": 647.9,
+    "close": 644.86,
+    "volume": 13159356,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-05",
+    "open": 661.93,
+    "close": 660.57,
+    "volume": 13341367,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-04",
+    "open": 657.96,
+    "close": 667.73,
+    "volume": 10810054,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-03",
+    "open": 648.29,
+    "close": 655.08,
+    "volume": 12263754,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-03-02",
+    "open": 637.16,
+    "close": 653.56,
+    "volume": 9816125,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-27",
+    "open": 643.45,
+    "close": 648.18,
+    "volume": 15703041,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-26",
+    "open": 650.55,
+    "close": 657.01,
+    "volume": 10637736,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-25",
+    "open": 642.53,
+    "close": 653.69,
+    "volume": 11330693,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-24",
+    "open": 633.08,
+    "close": 639.3,
+    "volume": 10135647,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-23",
+    "open": 652.54,
+    "close": 637.25,
+    "volume": 8605909,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-20",
+    "open": 639.685,
+    "close": 655.66,
+    "volume": 14183512,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-19",
+    "open": 638.57,
+    "close": 644.78,
+    "volume": 10035698,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-18",
+    "open": 633.8,
+    "close": 643.22,
+    "volume": 14649196,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-17",
+    "open": 639.495,
+    "close": 639.29,
+    "volume": 12674739,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-13",
+    "open": 645.1,
+    "close": 639.77,
+    "volume": 12336363,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-12",
+    "open": 669.97,
+    "close": 649.81,
+    "volume": 14960108,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-11",
+    "open": 674.0,
+    "close": 668.69,
+    "volume": 14323818,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-10",
+    "open": 677.6,
+    "close": 670.72,
+    "volume": 10455816,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-09",
+    "open": 663.18,
+    "close": 677.22,
+    "volume": 14837529,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-06",
+    "open": 665.49,
+    "close": 661.46,
+    "volume": 18159253,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-05",
+    "open": 663.58,
+    "close": 670.21,
+    "volume": 17131791,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-04",
+    "open": 687.73,
+    "close": 668.99,
+    "volume": 16882761,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-03",
+    "open": 707.37,
+    "close": 691.7,
+    "volume": 13512258,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-02-02",
+    "open": 714.6,
+    "close": 706.41,
+    "volume": 14365224,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-30",
+    "open": 727.5,
+    "close": 716.5,
+    "volume": 23744573,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-29",
+    "open": 737.43,
+    "close": 738.31,
+    "volume": 59852903,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-28",
+    "open": 674.5,
+    "close": 668.73,
+    "volume": 25709600,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-27",
+    "open": 674.59,
+    "close": 672.97,
+    "volume": 13148719,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-26",
+    "open": 665.125,
+    "close": 672.36,
+    "volume": 16327378,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-23",
+    "open": 644.77,
+    "close": 658.76,
+    "volume": 22797723,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-22",
+    "open": 629.35,
+    "close": 647.63,
+    "volume": 21394669,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-21",
+    "open": 606.74,
+    "close": 612.96,
+    "volume": 14494655,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-20",
+    "open": 607.88,
+    "close": 604.12,
+    "volume": 15040799,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-16",
+    "open": 624.1762,
+    "close": 620.25,
+    "volume": 17012516,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-15",
+    "open": 618.48,
+    "close": 620.8,
+    "volume": 13076058,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-14",
+    "open": 626.5,
+    "close": 615.52,
+    "volume": 15527875,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-13",
+    "open": 642.27,
+    "close": 631.09,
+    "volume": 18030395,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-12",
+    "open": 652.525,
+    "close": 641.97,
+    "volume": 14797197,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-09",
+    "open": 645.435,
+    "close": 653.06,
+    "volume": 11634944,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-08",
+    "open": 645.88,
+    "close": 646.06,
+    "volume": 11921708,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-07",
+    "open": 655.64,
+    "close": 648.69,
+    "volume": 12846273,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-06",
+    "open": 659.57,
+    "close": 660.62,
+    "volume": 11074419,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-05",
+    "open": 651.01,
+    "close": 658.79,
+    "volume": 12213745,
+    "ticker": "META"
+  },
+  {
+    "date": "2026-01-02",
+    "open": 662.725,
+    "close": 650.41,
+    "volume": 13726517,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-31",
+    "open": 664.75,
+    "close": 660.09,
+    "volume": 7940359,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-30",
+    "open": 658.69,
+    "close": 665.95,
+    "volume": 9187483,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-29",
+    "open": 658.01,
+    "close": 658.69,
+    "volume": 8506477,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-26",
+    "open": 668.06,
+    "close": 663.29,
+    "volume": 7133813,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-24",
+    "open": 662.53,
+    "close": 667.55,
+    "volume": 5627512,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-23",
+    "open": 660.05,
+    "close": 664.94,
+    "volume": 8486847,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-22",
+    "open": 661.645,
+    "close": 661.5,
+    "volume": 15659385,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-19",
+    "open": 666.42,
+    "close": 658.77,
+    "volume": 49977051,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-18",
+    "open": 657.025,
+    "close": 664.45,
+    "volume": 20260295,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-17",
+    "open": 655.61,
+    "close": 649.5,
+    "volume": 15598548,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-16",
+    "open": 643.5,
+    "close": 657.15,
+    "volume": 14309136,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-15",
+    "open": 645.7,
+    "close": 647.51,
+    "volume": 15549088,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-12",
+    "open": 649.8,
+    "close": 644.23,
+    "volume": 14016915,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-11",
+    "open": 643.29,
+    "close": 652.71,
+    "volume": 13056726,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-10",
+    "open": 649.95,
+    "close": 650.13,
+    "volume": 16910883,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-09",
+    "open": 663.765,
+    "close": 656.96,
+    "volume": 12156958,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-08",
+    "open": 669.34,
+    "close": 666.8,
+    "volume": 12975065,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-05",
+    "open": 664.0,
+    "close": 673.42,
+    "volume": 21207861,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-04",
+    "open": 676.0,
+    "close": 661.53,
+    "volume": 29874622,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-03",
+    "open": 644.41,
+    "close": 639.6,
+    "volume": 11134305,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-02",
+    "open": 642.34,
+    "close": 647.1,
+    "volume": 11640869,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-12-01",
+    "open": 639.55,
+    "close": 640.87,
+    "volume": 13029922,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-28",
+    "open": 636.075,
+    "close": 647.95,
+    "volume": 11033198,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-26",
+    "open": 637.69,
+    "close": 633.61,
+    "volume": 15209481,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-25",
+    "open": 624.0,
+    "close": 636.22,
+    "volume": 25212978,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-24",
+    "open": 598.72,
+    "close": 613.05,
+    "volume": 23554932,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-21",
+    "open": 588.5,
+    "close": 594.25,
+    "volume": 21052624,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-20",
+    "open": 603.5,
+    "close": 589.15,
+    "volume": 20603024,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-19",
+    "open": 593.715,
+    "close": 590.32,
+    "volume": 24744703,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-18",
+    "open": 591.6,
+    "close": 597.69,
+    "volume": 25500647,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-17",
+    "open": 609.035,
+    "close": 602.01,
+    "volume": 16501331,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-14",
+    "open": 601.79,
+    "close": 609.46,
+    "volume": 20724146,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-13",
+    "open": 613.07,
+    "close": 609.89,
+    "volume": 20973845,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-12",
+    "open": 628.13,
+    "close": 609.01,
+    "volume": 24493272,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-11",
+    "open": 628.0,
+    "close": 627.08,
+    "volume": 13302187,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-10",
+    "open": 631.09,
+    "close": 631.76,
+    "volume": 19245000,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-07",
+    "open": 616.485,
+    "close": 621.71,
+    "volume": 29946826,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-06",
+    "open": 635.85,
+    "close": 618.94,
+    "volume": 23628750,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-05",
+    "open": 632.31,
+    "close": 635.95,
+    "volume": 20082909,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-04",
+    "open": 628.035,
+    "close": 627.32,
+    "volume": 27356553,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-11-03",
+    "open": 656.0,
+    "close": 637.71,
+    "volume": 33003599,
+    "ticker": "META"
+  },
+  {
+    "date": "2025-10-31",
+    "open": 674.51,
+    "close": 648.35,
+    "volume": 56953169,
+    "ticker": "META"
+  }
+]

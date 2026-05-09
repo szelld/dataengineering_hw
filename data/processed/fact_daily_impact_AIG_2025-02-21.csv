@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-02-21,AIG,76.65,5936361,6,1,US-MIAMI,Miami,United States,25.7617,-80.1918,89.7,2025,2,21,False,American International Group,Insurance

@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-02-12,CB,265.07,1041852,7,0,US-MIAMI,Miami,United States,25.7617,-80.1918,326.35,2025,2,12,False,Chubb Limited,Insurance

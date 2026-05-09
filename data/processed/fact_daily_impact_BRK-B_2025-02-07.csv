@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-02-07,BRK-B,472.74,3205136,9,1,US-HOUSTON,Houston,United States,29.7604,-95.3698,85.77,2025,2,7,False,Berkshire Hathaway Inc. Class B,Insurance

@@ -1,0 +1,549 @@
+event_id,event_title,category_id,category_name,date,longitude,latitude
+EONET_19376,Wildfire in Australia 1028218,wildfires,Wildfires,2026-04-06,128.3692566608866,-15.731795329081466
+EONET_19377,Wildfire in Mongolia 1028219,wildfires,Wildfires,2026-04-06,115.78281860426753,49.28756597876336
+EONET_19349,"Holly Springs IU 81-1 83-1 RX Prescribed Fire, Lafayette, Mississippi",wildfires,Wildfires,2026-04-06,-89.382263,34.49759
+EONET_19351,"EASTER PASTURE Wildfire, Hendry, Florida",wildfires,Wildfires,2026-04-05,-81.0269444,26.4713889
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-05,171.8,-13.8
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-05,172.3,-14.5
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-05,172.4,-14.9
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-05,172.6,-15.1
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-06,173.1,-15.7
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-06,173.6,-16.1
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-06,173.8,-16.5
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-06,174.4,-17.1
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-07,174.8,-18.1
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-07,175.3,-19.2
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-07,175.9,-20.0
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-07,177.0,-21.1
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-08,177.4,-22.2
+EONET_19329,Tropical Cyclone Vaianu,severeStorms,Severe Storms,2026-04-08,177.8,-23.4
+EONET_19375,Flood in Türkiye 1103833,floods,Floods,2026-04-04,35.2823275,37.0468862
+EONET_19303,Wildfire in Australia 1028178,wildfires,Wildfires,2026-04-04,125.53351718733587,-16.33584965065326
+EONET_19332,Wildfire in Australia 1028196,wildfires,Wildfires,2026-04-04,125.24338868857761,-16.387720501824536
+EONET_19333,Wildfire in Australia 1028197,wildfires,Wildfires,2026-04-04,125.36553191466744,-16.356429693747376
+EONET_19334,Wildfire in Myanmar 1028190,wildfires,Wildfires,2026-04-04,92.9275818660162,21.229773945458223
+EONET_19378,Wildfire in United States 1028214,wildfires,Wildfires,2026-04-04,-96.57078824265754,37.3112587541737
+EONET_19354,"North Twin Wildfire, Hutchinson, Texas",wildfires,Wildfires,2026-04-04,-101.57466,35.75541
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-04,155.1,-9.1
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-04,154.9,-9.1
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-04,154.7,-9.0
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-04,154.4,-8.9
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-05,154.2,-8.8
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-05,154.4,-9.2
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-05,154.6,-9.3
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-05,154.6,-9.5
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-06,154.7,-9.5
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-06,155.3,-9.7
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-06,155.5,-9.7
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-06,156.1,-9.9
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-07,156.4,-9.9
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-07,156.5,-9.9
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-07,156.3,-9.7
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-07,156.0,-9.5
+EONET_19302,Tropical Cyclone Maila,severeStorms,Severe Storms,2026-04-08,155.9,-9.0
+EONET_19330,Flood in China 1103830,floods,Floods,2026-04-03,121.0125368,24.7695434
+EONET_19356,"APQ Area 10 &amp; 10B Rx 0403 Prescribed Fire, Highlands, Florida",wildfires,Wildfires,2026-04-03,-81.172485,27.607297
+EONET_19277,Wildfire in Russian Federation 1028150,wildfires,Wildfires,2026-04-03,132.0473764289204,48.704126674102184
+EONET_19278,Wildfire in Myanmar 1028151,wildfires,Wildfires,2026-04-03,93.08541232367195,21.315947227188293
+EONET_19279,Wildfire in China 1028152,wildfires,Wildfires,2026-04-03,124.36994399981721,48.16162926463981
+EONET_19304,Wildfire in Myanmar 1028166,wildfires,Wildfires,2026-04-03,92.86661054790723,21.42571229259251
+EONET_19305,Wildfire in Australia 1028179,wildfires,Wildfires,2026-04-03,116.47863042416742,-32.22738329826664
+EONET_19306,Wildfire in Russian Federation 1028180,wildfires,Wildfires,2026-04-03,134.89712081965936,48.71435633989748
+EONET_19307,Wildfire in Myanmar 1028164,wildfires,Wildfires,2026-04-03,93.07861431689493,21.193564199411945
+EONET_19308,Wildfire in Myanmar 1028165,wildfires,Wildfires,2026-04-03,93.01617529620478,21.120704583338682
+EONET_19379,Wildfire in Myanmar 1028207,wildfires,Wildfires,2026-04-03,92.83750679566664,21.851247788914723
+EONET_19380,Wildfire in India 1028217,wildfires,Wildfires,2026-04-03,78.25520395563076,22.935708891192654
+EONET_19350,"Hilux Wildfire, Collier, Florida",wildfires,Wildfires,2026-04-03,-81.279167,26.228889
+EONET_19355,"SPRINGS Wildfire, Riverside, California",wildfires,Wildfires,2026-04-03,-117.078415,33.891678
+EONET_19357,"rx-Young 1 Prescribed Fire, Jefferson, Wisconsin",wildfires,Wildfires,2026-04-03,-88.630401,42.8455985
+EONET_19331,Flood in Colombia 1103831,floods,Floods,2026-04-02,-75.573553,6.2443382
+EONET_19280,Wildfire in Myanmar 1028153,wildfires,Wildfires,2026-04-02,92.79275899401534,21.509593033722485
+EONET_19309,Wildfire in Myanmar 1028167,wildfires,Wildfires,2026-04-02,92.756489330887,21.966461220442046
+EONET_19310,Wildfire in India 1028181,wildfires,Wildfires,2026-04-02,78.07707494235427,22.875935291308696
+EONET_19352,"Sargent Wildfire, Polk, Florida",wildfires,Wildfires,2026-04-02,-81.350623,27.652481
+EONET_19353,"Lefty Wildfire, Hall, Texas",wildfires,Wildfires,2026-04-02,-100.6016667,34.41722222
+EONET_19202,"Bronson Wildfire, Woodbury, Iowa",wildfires,Wildfires,2026-04-02,-96.20055,42.3866
+EONET_19203,"rx-12_ 13_ 14 Prescribed Fire, Burnett, Wisconsin",wildfires,Wildfires,2026-04-02,-92.6888328,45.7153853
+EONET_19204,"Rx Houston 3041 Prescribed Fire, Houston, Texas",wildfires,Wildfires,2026-04-02,-95.537898,31.407942
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-02,73.6,-11.6
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-02,73.5,-12.0
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-02,73.2,-12.6
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-02,73.5,-12.6
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-03,73.2,-14.1
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-03,72.9,-15.2
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-03,72.2,-16.5
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-03,71.6,-17.8
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-04,70.5,-19.1
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-04,70.2,-20.3
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-04,70.0,-21.7
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-04,70.3,-23.7
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-05,70.2,-25.7
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-05,70.9,-28.0
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-05,71.9,-30.2
+EONET_19169,Tropical Cyclone Indusa,severeStorms,Severe Storms,2026-04-05,73.1,-32.0
+EONET_19253,Wildfire in Russian Federation 1028133,wildfires,Wildfires,2026-04-01,133.84930606351608,48.434456588332374
+EONET_19254,Wildfire in Russian Federation 1028134,wildfires,Wildfires,2026-04-01,133.66631840898873,48.29436162019492
+EONET_19311,Wildfire in Myanmar 1028168,wildfires,Wildfires,2026-04-01,92.73697541995064,21.653710528083472
+EONET_19312,Wildfire in Myanmar 1028169,wildfires,Wildfires,2026-04-01,92.77057637190273,21.810312020526986
+EONET_19335,Wildfire in Laos 1028198,wildfires,Wildfires,2026-04-01,106.96243245740928,15.44819233055206
+EONET_19336,Wildfire in India 1028199,wildfires,Wildfires,2026-04-01,92.17303320857066,25.882821986077527
+EONET_19381,Wildfire in India 1028208,wildfires,Wildfires,2026-04-01,90.99137486465054,25.789752722818605
+EONET_19208,"RX PCS Beauchamp North Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-04-01,-94.327475,34.800258
+EONET_19171,Wildfire in Russian Federation 1028105,wildfires,Wildfires,2026-03-31,133.45782539498202,48.333832348223936
+EONET_19281,"Wildfire in Myanmar, Thailand 1028154",wildfires,Wildfires,2026-03-31,97.58866366122041,18.28350815898736
+EONET_19282,Wildfire in China 1028155,wildfires,Wildfires,2026-03-31,124.70689213396325,48.32253715155408
+EONET_19283,Wildfire in Russian Federation 1028156,wildfires,Wildfires,2026-03-31,132.11513173624454,48.287438360850665
+EONET_19284,Wildfire in India 1028157,wildfires,Wildfires,2026-03-31,93.03566593279255,25.278543067676083
+EONET_19313,"Wildfire in Liberia, Guinea 1028174",wildfires,Wildfires,2026-03-31,-9.925323483677253,8.445297218312096
+EONET_19314,Wildfire in Australia 1028182,wildfires,Wildfires,2026-03-31,116.5081019104874,-32.00702555688946
+EONET_19315,Wildfire in India 1028183,wildfires,Wildfires,2026-03-31,93.22509916957692,25.32592964677178
+EONET_19316,Wildfire in Thailand 1028177,wildfires,Wildfires,2026-03-31,99.2760683039521,14.75819423001893
+EONET_19317,Wildfire in Myanmar 1028170,wildfires,Wildfires,2026-03-31,92.94196699250254,21.749920236809757
+EONET_19337,Wildfire in India 1028191,wildfires,Wildfires,2026-03-31,78.04806843655994,22.878743630045136
+EONET_19338,Wildfire in India 1028192,wildfires,Wildfires,2026-03-31,86.480931968046,25.153272133835788
+EONET_19382,Wildfire in Myanmar 1028209,wildfires,Wildfires,2026-03-31,96.39753430059129,23.38131632652329
+EONET_19229,"Julie Pond Wildfire, Dorchester, Maryland",wildfires,Wildfires,2026-03-31,-75.97625,38.396085
+EONET_19232,"Caddo Lake C-6 RX Prescribed Fire, Harrison, Texas",wildfires,Wildfires,2026-03-31,-94.104296,32.667308
+EONET_19224,"C-148 BLK 9 10 &amp; 11 EN RX Prescribed Fire, Newberry, South Carolina",wildfires,Wildfires,2026-03-31,-81.528333,34.421667
+EONET_19142,Flood in Italy 1103825,floods,Floods,2026-03-30,14.444515,42.296042
+EONET_19225,"Middle Toe Wildfire, Pittsburg, Oklahoma",wildfires,Wildfires,2026-03-30,-95.3977778,35.0475
+EONET_19110,Wildfire in China 1028052,wildfires,Wildfires,2026-03-30,123.77112375416846,48.01622888154749
+EONET_19144,Wildfire in China 1028085,wildfires,Wildfires,2026-03-30,124.65718278619973,47.57521523361517
+EONET_19145,Wildfire in Russian Federation 1028086,wildfires,Wildfires,2026-03-30,131.48816781817737,44.16305316551417
+EONET_19172,Wildfire in Australia 1028099,wildfires,Wildfires,2026-03-30,126.3396102873574,-16.926678572850307
+EONET_19173,Wildfire in China 1028106,wildfires,Wildfires,2026-03-30,127.96937390874287,46.00886263136759
+EONET_19174,Wildfire in Australia 1028107,wildfires,Wildfires,2026-03-30,128.03560946301388,-15.863236610810196
+EONET_19255,Wildfire in Australia 1028135,wildfires,Wildfires,2026-03-30,126.97769914758672,-16.63344894040525
+EONET_19285,Wildfire in Thailand 1028146,wildfires,Wildfires,2026-03-30,97.80062654023209,18.132966696893867
+EONET_19318,Wildfire in India 1028171,wildfires,Wildfires,2026-03-30,77.8972441761564,22.780050151646535
+EONET_19319,Wildfire in Bangladesh 1028172,wildfires,Wildfires,2026-03-30,92.46906307316365,22.21719395672267
+EONET_19339,Wildfire in Australia 1028200,wildfires,Wildfires,2026-03-30,126.72478648645938,-16.072059911559883
+EONET_19340,Wildfire in Myanmar 1028201,wildfires,Wildfires,2026-03-30,94.56397526396943,23.023003657773042
+EONET_19194,"Hall Thompson Lane Wildfire, Shelby, Alabama",wildfires,Wildfires,2026-03-30,-86.5408333,33.4077778
+EONET_19239,"Sweetwater Wildfire, Marengo, Alabama",wildfires,Wildfires,2026-03-30,-87.915,32.2358333
+EONET_19237,"RX PCS Henry Mountain Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-30,-94.248164,34.805454
+EONET_19233,"DCNF C37 RX Prescribed Fire, Houston, Texas",wildfires,Wildfires,2026-03-30,-95.258555,31.347207
+EONET_19234,"RX Forks 14 Prescribed Fire, Montgomery, Arkansas",wildfires,Wildfires,2026-03-30,-93.801389,34.564167
+EONET_19238,"Chickasawhay CPT 373 RX Prescribed Fire, Wayne, Mississippi",wildfires,Wildfires,2026-03-30,-88.8988,31.5429
+EONET_19212,"14B/14C RX Prescribed Fire, Jones, Georgia",wildfires,Wildfires,2026-03-30,-83.6958,33.1173
+EONET_19236,"ANF Turkey Creek C-7 RX Prescribed Fire, San Augustine, Texas",wildfires,Wildfires,2026-03-30,-94.193667,31.413583
+EONET_19205,"Lamar Bennett Trail Wildfire, Ware, Georgia",wildfires,Wildfires,2026-03-29,-82.5197222,31.4411111
+EONET_19170,Flood in United States 1103826,floods,Floods,2026-03-29,-82.7262958,41.0531134
+EONET_19111,Wildfire in Australia 1028053,wildfires,Wildfires,2026-03-29,126.79405855625956,-16.20237004355104
+EONET_19112,Wildfire in Australia 1028054,wildfires,Wildfires,2026-03-29,126.51704487228751,-17.109120785941585
+EONET_19113,Wildfire in Myanmar 1028055,wildfires,Wildfires,2026-03-29,92.80534606045269,21.2651240724259
+EONET_19114,Wildfire in Australia 1028041,wildfires,Wildfires,2026-03-29,126.71001271511452,-17.192527336317458
+EONET_19175,Wildfire in Thailand 1028100,wildfires,Wildfires,2026-03-29,100.62648557577181,17.825008083837268
+EONET_19286,Wildfire in Australia 1028158,wildfires,Wildfires,2026-03-29,133.96815810276988,-19.224731839973288
+EONET_19320,Wildfire in Australia 1028184,wildfires,Wildfires,2026-03-29,137.2789281768291,-20.997081242276742
+EONET_19341,Wildfire in Sierra Leone 1028193,wildfires,Wildfires,2026-03-29,-11.48130619195214,8.79556295285266
+EONET_19383,Wildfire in Thailand 1028215,wildfires,Wildfires,2026-03-29,98.72513524023796,17.618261203565137
+EONET_19207,"Cane Creek Wildfire, Wilkes, North Carolina",wildfires,Wildfires,2026-03-29,-81.1739,36.31295
+EONET_19235,"Long Ridge Rx Unit 41 &amp; 47 Prescribed Fire, Athens, Ohio",wildfires,Wildfires,2026-03-29,-82.124323,39.449275
+EONET_19245,"Birdseye RX Prescribed Fire, Crawford, Indiana",wildfires,Wildfires,2026-03-29,-86.6787,38.3132
+EONET_19213,"Compartment 154 RX Prescribed Fire, Putnam, Georgia",wildfires,Wildfires,2026-03-29,-83.41644,33.376697
+EONET_19206,"HWY 1498 Wildfire, Knott, Kentucky",wildfires,Wildfires,2026-03-29,-82.74825096,37.30614677
+EONET_19241,"Johnson Hills Wildfire, Phelps, Nebraska",wildfires,Wildfires,2026-03-29,-99.615742,40.496668
+EONET_19247,"rx-Refuge Pool South Prescribed Fire, Juneau, Wisconsin",wildfires,Wildfires,2026-03-29,-90.2632005,44.2254153
+EONET_19246,"McClurg RX Prescribed Fire, Ozark, Missouri",wildfires,Wildfires,2026-03-29,-92.754167,36.800278
+EONET_19146,Wildfire in Russian Federation 1028081,wildfires,Wildfires,2026-03-28,131.63707282574282,44.27932755868797
+EONET_19147,Wildfire in Sierra Leone 1028072,wildfires,Wildfires,2026-03-28,-11.652611753391172,8.143850916227803
+EONET_19176,Wildfire in Australia 1028108,wildfires,Wildfires,2026-03-28,127.79351040847123,-16.203533471377924
+EONET_19256,Wildfire in Sierra Leone 1028121,wildfires,Wildfires,2026-03-28,-11.209656955240382,8.28190729619016
+EONET_19287,Wildfire in Myanmar 1028139,wildfires,Wildfires,2026-03-28,96.52653650219129,20.08671702524708
+EONET_19321,Wildfire in Thailand 1028185,wildfires,Wildfires,2026-03-28,98.75132256660781,14.715313446760856
+EONET_19342,Wildfire in Laos 1028195,wildfires,Wildfires,2026-03-28,101.49861365862117,17.98810259420713
+EONET_19343,Wildfire in Senegal 1028202,wildfires,Wildfires,2026-03-28,-14.62120815379734,13.136896198604722
+EONET_19344,Wildfire in Thailand 1028203,wildfires,Wildfires,2026-03-28,101.38859606796825,16.769598681575186
+EONET_19242,"BOMAN Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-28,-96.077,36.5468
+EONET_19249,"BISON LOOP Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-28,-96.45943,36.820957
+EONET_19103,Flood in Argentina 1103822,floods,Floods,2026-03-27,-63.9698736,-32.022249
+EONET_19104,Flood in Bosnia &amp; Herzegovina 1103817,floods,Floods,2026-03-27,18.5156598,44.7861384
+EONET_19105,Flood in Islamic Republic of Iran 1103820,floods,Floods,2026-03-27,53.4327752,29.2051447
+EONET_19143,Flood in Peru 1103823,floods,Floods,2026-03-27,-75.1825683739876,-12.0777922
+EONET_19275,Flood in Angola 1103828,floods,Floods,2026-03-27,13.4037117,-12.5790048
+EONET_19015,Wildfire in China 1027971,wildfires,Wildfires,2026-03-27,126.02379323380596,47.17643129574894
+EONET_19115,Wildfire in China 1028056,wildfires,Wildfires,2026-03-27,123.14622039093572,47.69403067541664
+EONET_19148,Wildfire in China 1028082,wildfires,Wildfires,2026-03-27,124.65880626775031,47.4215123469313
+EONET_19149,Wildfire in China 1028083,wildfires,Wildfires,2026-03-27,123.69612044069679,48.10728885607156
+EONET_19150,Wildfire in China 1028087,wildfires,Wildfires,2026-03-27,129.9110542813471,46.484566319864435
+EONET_19151,Wildfire in Kazakhstan 1028071,wildfires,Wildfires,2026-03-27,74.74654243441755,45.54475032066651
+EONET_19177,Wildfire in China 1028109,wildfires,Wildfires,2026-03-27,130.6208489690864,44.8117526804401
+EONET_19178,Wildfire in China 1028110,wildfires,Wildfires,2026-03-27,129.5380768658805,44.13734845083335
+EONET_19179,Wildfire in Sierra Leone 1028098,wildfires,Wildfires,2026-03-27,-11.67438992457416,8.047406395650087
+EONET_19257,Wildfire in Laos 1028136,wildfires,Wildfires,2026-03-27,106.57761093051803,16.509593933860526
+EONET_19288,Wildfire in Bangladesh 1028159,wildfires,Wildfires,2026-03-27,92.44328042965783,22.382634445147804
+EONET_19322,Wildfire in Thailand 1028186,wildfires,Wildfires,2026-03-27,99.28995836303321,15.811682032232673
+EONET_19323,"Wildfire in Thailand, Myanmar 1028187",wildfires,Wildfires,2026-03-27,97.66790600940148,18.211471169200014
+EONET_19345,Wildfire in Thailand 1028204,wildfires,Wildfires,2026-03-27,99.45744522373089,19.770606736576667
+EONET_19346,Wildfire in Sierra Leone 1028194,wildfires,Wildfires,2026-03-27,-11.822009132653177,7.987962569844772
+EONET_19231,"Morman Lake Basin RX Prescribed Fire, Coconino, Arizona",wildfires,Wildfires,2026-03-27,-111.468883,34.912117
+EONET_19243,"Sheep Creek RX Prescribed Fire, Lemhi, Idaho",wildfires,Wildfires,2026-03-27,-113.9325,45.457667
+EONET_19228,"Rattlesnake RX Prescribed Fire, Perry, Indiana",wildfires,Wildfires,2026-03-27,-86.5811,38.0796
+EONET_19226,"Old 66 Wildfire, Quay, New Mexico",wildfires,Wildfires,2026-03-27,-103.285447,35.146209
+EONET_19252,"Carroll Co State Assist Wildfire, Carroll, Mississippi",wildfires,Wildfires,2026-03-27,-89.955556,33.374444
+EONET_18975,"Rx Hardin 2806 Prescribed Fire, Hardin, Texas",wildfires,Wildfires,2026-03-27,-94.34081,30.3957
+EONET_19240,"3R RX - COYOTE Prescribed Fire, Ferry, Washington",wildfires,Wildfires,2026-03-27,-118.293279,48.604201
+EONET_18971,"Carroll - CR 145 Wildfire, Carroll, Mississippi",wildfires,Wildfires,2026-03-27,-89.9555556,33.3744444
+EONET_18979,"Salt Wildfire, Stafford, Kansas",wildfires,Wildfires,2026-03-27,-98.47647,38.20875
+EONET_18980,"RL 005 CB Wildfire, Clearwater, Minnesota",wildfires,Wildfires,2026-03-27,-95.257567,47.885474
+EONET_18984,"Big Toe Wildfire, Pittsburg, Oklahoma",wildfires,Wildfires,2026-03-27,-95.3672222,35.0533333
+EONET_19250,"Shady Grove Wildfire, Craig, Oklahoma",wildfires,Wildfires,2026-03-26,-95.0955556,36.9369444
+EONET_19106,Flood in Azerbaijan 1103818,floods,Floods,2026-03-26,49.9538852,40.3698536
+EONET_19107,Flood in Russia 1103819,floods,Floods,2026-03-26,47.1219624,42.8260906
+EONET_18943,Wildfire in China 1027942,wildfires,Wildfires,2026-03-26,129.68565730020757,46.17223806829813
+EONET_19016,Wildfire in Myanmar 1027972,wildfires,Wildfires,2026-03-26,92.52603243053281,21.2675324307979
+EONET_19017,Wildfire in India 1027970,wildfires,Wildfires,2026-03-26,77.59360988803098,22.6600475364746
+EONET_19116,Wildfire in China 1028057,wildfires,Wildfires,2026-03-26,129.8017356447277,46.41604441837552
+EONET_19152,Wildfire in Thailand 1028073,wildfires,Wildfires,2026-03-26,97.482516903816,18.385835291753832
+EONET_19153,Wildfire in China 1028088,wildfires,Wildfires,2026-03-26,126.23157057425489,47.27026369305532
+EONET_19154,Wildfire in China 1028089,wildfires,Wildfires,2026-03-26,127.41564139518522,46.34127145062652
+EONET_19258,Wildfire in Chile 1028122,wildfires,Wildfires,2026-03-26,-71.90848950237122,-36.766936706942445
+EONET_19289,Wildfire in Bangladesh 1028160,wildfires,Wildfires,2026-03-26,92.47037101142503,22.54045199358312
+EONET_19290,Wildfire in Thailand 1028147,wildfires,Wildfires,2026-03-26,99.28544699108045,17.579376444589116
+EONET_19291,Wildfire in Thailand 1028141,wildfires,Wildfires,2026-03-26,101.54188477219927,16.253305587781874
+EONET_19292,Wildfire in Thailand 1028142,wildfires,Wildfires,2026-03-26,100.50740255097794,17.490110418164097
+EONET_19324,Wildfire in Thailand 1028176,wildfires,Wildfires,2026-03-26,99.35787704257122,18.555313249372965
+EONET_19325,Wildfire in Thailand 1028188,wildfires,Wildfires,2026-03-26,97.75514073488797,18.269089613367388
+EONET_19326,Wildfire in Myanmar 1028173,wildfires,Wildfires,2026-03-26,98.96122055260818,21.020107363921944
+EONET_19384,Wildfire in Thailand 1028212,wildfires,Wildfires,2026-03-26,101.83142533840955,17.99731490055511
+EONET_19385,Wildfire in Bangladesh 1028210,wildfires,Wildfires,2026-03-26,92.31800028009371,22.042748779440497
+EONET_18982,"BOX Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-26,-96.6398,36.4778
+EONET_18989,"Cedar Canyon Wildfire, Blaine, Oklahoma",wildfires,Wildfires,2026-03-26,-98.3569444,36.005
+EONET_18973,"RL 005 CB Wildfire, Clearwater, Minnesota",wildfires,Wildfires,2026-03-26,-95.257567,47.885474
+EONET_18995,"Homochitto BB 2 RX Prescribed Fire, Copiah, Mississippi",wildfires,Wildfires,2026-03-26,-90.734,31.736
+EONET_18987,"Minor Wildfire, Grant, Nebraska",wildfires,Wildfires,2026-03-26,-101.760772,42.001111
+EONET_18988,"Ashby Wildfire, Grant, Nebraska",wildfires,Wildfires,2026-03-26,-101.927778,42.021944
+EONET_18994,"RX WINN BU 37 Prescribed Fire, Winn, Louisiana",wildfires,Wildfires,2026-03-26,-92.825556,32.036667
+EONET_19248,"ANF Upland Island N 68/69/70 RX Prescribed Fire, Angelina, Texas",wildfires,Wildfires,2026-03-26,-94.35225,31.103717
+EONET_18993,"RX CALE BU 41 Prescribed Fire, Rapides, Louisiana",wildfires,Wildfires,2026-03-26,-92.646933,31.135
+EONET_19195,"C-38B_41 EN RX Prescribed Fire, Union, South Carolina",wildfires,Wildfires,2026-03-26,-81.635,34.588056
+EONET_18986,"Zipperer Wildfire, Pittsburg, Oklahoma",wildfires,Wildfires,2026-03-26,-95.5319444,34.7991667
+EONET_18992,"Turkey Wildfire, Huerfano, Colorado",wildfires,Wildfires,2026-03-25,-104.638056,37.846389
+EONET_18915,Wildfire in United States 1027910,wildfires,Wildfires,2026-03-25,-101.94515868316468,41.98315858591437
+EONET_19018,Wildfire in Colombia 1027958,wildfires,Wildfires,2026-03-25,-68.50828613873621,6.020505596752759
+EONET_19019,Wildfire in Myanmar 1027973,wildfires,Wildfires,2026-03-25,92.31073435989788,21.28309581921162
+EONET_19020,Wildfire in Myanmar 1027974,wildfires,Wildfires,2026-03-25,96.48875463116113,20.524591706207254
+EONET_19083,Wildfire in China 1028031,wildfires,Wildfires,2026-03-25,125.66860546924612,46.81405579270612
+EONET_19084,Wildfire in Chile 1028027,wildfires,Wildfires,2026-03-25,-72.40849617652444,-38.39585726139442
+EONET_19085,Wildfire in India 1028028,wildfires,Wildfires,2026-03-25,77.59952519147903,22.497963179603254
+EONET_19117,Wildfire in China 1028058,wildfires,Wildfires,2026-03-25,126.39798166188525,46.936322163187114
+EONET_19155,Wildfire in China 1028090,wildfires,Wildfires,2026-03-25,128.24216251098778,43.62237411419864
+EONET_19156,Wildfire in China 1028091,wildfires,Wildfires,2026-03-25,126.74997894287318,47.023061206924545
+EONET_19157,Wildfire in Myanmar 1028092,wildfires,Wildfires,2026-03-25,97.90902354870558,19.74954712676197
+EONET_19158,Wildfire in China 1028084,wildfires,Wildfires,2026-03-25,127.23647854686955,46.33556682650078
+EONET_19180,Wildfire in Bangladesh 1028111,wildfires,Wildfires,2026-03-25,92.31031085488199,21.54288022161179
+EONET_19259,Wildfire in Thailand 1028137,wildfires,Wildfires,2026-03-25,99.29690615968494,15.968434294669906
+EONET_19260,Wildfire in Thailand 1028123,wildfires,Wildfires,2026-03-25,98.69581127260449,17.81701959488148
+EONET_19261,Wildfire in Indonesia 1028124,wildfires,Wildfires,2026-03-25,102.44574625033479,1.3503239950154082
+EONET_19293,Wildfire in Thailand 1028143,wildfires,Wildfires,2026-03-25,99.266690654847,19.322599549898936
+EONET_19294,Wildfire in China 1028161,wildfires,Wildfires,2026-03-25,126.19944088060046,46.686212442556
+EONET_19327,Wildfire in Thailand 1028175,wildfires,Wildfires,2026-03-25,99.57514027482168,13.365958569768827
+EONET_19386,Wildfire in Myanmar 1028211,wildfires,Wildfires,2026-03-25,94.84172660474877,18.6798825152648
+EONET_19387,Wildfire in India 1028213,wildfires,Wildfires,2026-03-25,80.4502335157189,18.937269964266328
+EONET_18990,"Warthog Wildfire, Trinity, Texas",wildfires,Wildfires,2026-03-25,-95.158513,31.131093
+EONET_19214,"Compartment 144 RX Prescribed Fire, Putnam, Georgia",wildfires,Wildfires,2026-03-25,-83.476397,33.240418
+EONET_18983,"PARAMOUNT Wildfire, Kings, California",wildfires,Wildfires,2026-03-25,-119.889323,35.818033
+EONET_19006,"College Drive Wildfire, Monroe, Alabama",wildfires,Wildfires,2026-03-25,-86.9869444,31.83
+EONET_19001,"Bull Hollow RX Prescribed Fire, Perry, Indiana",wildfires,Wildfires,2026-03-25,-86.5392,38.0674
+EONET_19005,"Warren RX Prescribed Fire, Lawrence, Alabama",wildfires,Wildfires,2026-03-25,-87.2674,34.365
+EONET_18996,"DCNF C-119-121 RX Prescribed Fire, Trinity, Texas",wildfires,Wildfires,2026-03-25,-94.886818,31.189088
+EONET_18998,"IDNR- Sand Ridge State Forest RX Prescribed Fire, Mason, Illinois",wildfires,Wildfires,2026-03-25,-89.8787,40.400583
+EONET_19003,"RX PCS Andy Knight South Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-25,-94.318322,34.818241
+EONET_18999,"RX Sharp Top 1 Prescribed Fire, Montgomery, Arkansas",wildfires,Wildfires,2026-03-25,-93.545833,34.425278
+EONET_19002,"RX Vanderslice Unit 7/8 Prescribed Fire, Montgomery, Arkansas",wildfires,Wildfires,2026-03-25,-93.46725,34.669806
+EONET_19244,"CMB - Powder Mill RX Prescribed Fire, Menifee, Kentucky",wildfires,Wildfires,2026-03-25,-83.68166,37.878829
+EONET_18942,Flood in New Zealand 1103811,floods,Floods,2026-03-24,174.4629456,-35.5075152
+EONET_19061,Flood in Israel 1103812,floods,Floods,2026-03-24,35.0412455,31.0708586
+EONET_19082,Flood in Afghanistan 1103815,floods,Floods,2026-03-24,63.946629,32.103175
+EONET_19108,Flood in Iraq 1103816,floods,Floods,2026-03-24,43.5251254114244,33.38211545
+EONET_19109,Flood in Pakistan 1103821,floods,Floods,2026-03-24,71.2678805,33.712802
+EONET_18991,"FENCO FARMS (38) Wildfire, Levy, Florida",wildfires,Wildfires,2026-03-24,-82.5494444,29.0691667
+EONET_18916,Wildfire in Myanmar 1027911,wildfires,Wildfires,2026-03-24,99.12595987746015,20.31664047038579
+EONET_18944,Wildfire in Myanmar 1027943,wildfires,Wildfires,2026-03-24,93.15402948763098,21.471929093446292
+EONET_19063,Wildfire in Venezuela 1028000,wildfires,Wildfires,2026-03-24,-68.07937560118208,9.107592920912033
+EONET_19064,Wildfire in Thailand 1028010,wildfires,Wildfires,2026-03-24,97.89318914515343,19.028978125066036
+EONET_19118,Wildfire in Laos 1028059,wildfires,Wildfires,2026-03-24,102.13926496170258,20.445435281859
+EONET_19119,Wildfire in Myanmar 1028042,wildfires,Wildfires,2026-03-24,98.67909776973407,20.38219681947625
+EONET_19120,Wildfire in Myanmar 1028043,wildfires,Wildfires,2026-03-24,97.53814705819948,19.303564131258767
+EONET_19159,Wildfire in Myanmar 1028078,wildfires,Wildfires,2026-03-24,97.52975103146416,19.272911174315677
+EONET_19160,Wildfire in Myanmar 1028079,wildfires,Wildfires,2026-03-24,94.08106276248805,21.120836960037273
+EONET_19181,Wildfire in Thailand 1028103,wildfires,Wildfires,2026-03-24,99.18086727987956,18.943982002031877
+EONET_19182,Wildfire in Myanmar 1028112,wildfires,Wildfires,2026-03-24,96.31943460320835,20.523727284235168
+EONET_19183,Wildfire in China 1028113,wildfires,Wildfires,2026-03-24,126.56148049505389,44.49357085634372
+EONET_19262,Wildfire in Thailand 1028125,wildfires,Wildfires,2026-03-24,98.89365200373902,19.546137314350094
+EONET_19263,Wildfire in Thailand 1028130,wildfires,Wildfires,2026-03-24,97.95557422898169,18.030578850193724
+EONET_19264,Wildfire in Laos 1028117,wildfires,Wildfires,2026-03-24,106.67052660080097,16.272109024119526
+EONET_19265,Wildfire in Myanmar 1028118,wildfires,Wildfires,2026-03-24,97.22018838953166,18.89617528943123
+EONET_19295,"Wildfire in Thailand, Laos 1028144",wildfires,Wildfires,2026-03-24,100.43493444979453,19.632885494336033
+EONET_19296,Wildfire in Thailand 1028145,wildfires,Wildfires,2026-03-24,99.44629179085644,18.792648686391452
+EONET_19347,Wildfire in Laos 1028205,wildfires,Wildfires,2026-03-24,102.21876056596943,20.660607150788152
+EONET_19388,"Wildfire in Myanmar, Thailand 1028216",wildfires,Wildfires,2026-03-24,97.70139976953398,19.050269246060427
+EONET_19007,"Compartment 128 RX Prescribed Fire, Jones, Georgia",wildfires,Wildfires,2026-03-24,-83.494928,33.117915
+EONET_19227,"D7 Brushy MTN North RX Prescribed Fire, Apache, Arizona",wildfires,Wildfires,2026-03-24,-109.79702,34.130612
+EONET_19008,"Iron Post Wildfire, Cherokee, Oklahoma",wildfires,Wildfires,2026-03-24,-95.1038333,36.1373333
+EONET_19012,"PENNEL CREEK Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-24,-96.125892,36.627446
+EONET_18985,"Hutchinson Wildfire, Hutchinson, Texas",wildfires,Wildfires,2026-03-24,-101.4915333,35.71033333
+EONET_19014,"ADAMS FAMILY Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-24,-96.15697,36.4916
+EONET_18981,"RX PCS Ross Creek Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-24,-94.194099,34.822777
+EONET_19011,"RX Whiskey Springs 3 Prescribed Fire, Crawford, Arkansas",wildfires,Wildfires,2026-03-24,-94.3509,35.7401
+EONET_19010,"RX Mount Ida 7 Prescribed Fire, Montgomery, Arkansas",wildfires,Wildfires,2026-03-24,-93.668056,34.584167
+EONET_19013,"RX SOUTH LONE PINE Prescribed Fire, Pittsburg, Oklahoma",wildfires,Wildfires,2026-03-24,-95.6025,34.6885
+EONET_19004,"Bald Mountain RX Prescribed Fire, Craig, Virginia",wildfires,Wildfires,2026-03-24,-80.063054,37.598086
+EONET_19215,"Compartment 119_120 RX Prescribed Fire, Jasper, Georgia",wildfires,Wildfires,2026-03-24,-83.674067,33.169817
+EONET_18750,"90 Degrees Wildfire, Latimer, Oklahoma",wildfires,Wildfires,2026-03-24,-95.2988889,35.0336111
+EONET_18972,"Old Kentucky Wildfire, Sequoyah, Oklahoma",wildfires,Wildfires,2026-03-23,-94.7365,35.6228333
+EONET_18914,Flood in Spain 1103809,floods,Floods,2026-03-23,-16.6214471,28.2935785
+EONET_18758,"Luna Branch Wildfire, Adair, Oklahoma",wildfires,Wildfires,2026-03-23,-94.7343333,36.1103333
+EONET_18917,Wildfire in Venezuela 1027912,wildfires,Wildfires,2026-03-23,-68.94944325656844,6.438801102624449
+EONET_18945,Wildfire in Kazakhstan 1027944,wildfires,Wildfires,2026-03-23,75.07729800157988,45.31301569881449
+EONET_18946,Wildfire in India 1027945,wildfires,Wildfires,2026-03-23,77.45107876038625,22.390956684298708
+EONET_18947,Wildfire in India 1027939,wildfires,Wildfires,2026-03-23,77.24935990543302,22.409044154772726
+EONET_18948,Wildfire in Myanmar 1027926,wildfires,Wildfires,2026-03-23,92.68771719524949,21.435270385566714
+EONET_18949,Wildfire in China 1027930,wildfires,Wildfires,2026-03-23,125.48014689909097,45.24316171543106
+EONET_19021,Wildfire in Myanmar 1027959,wildfires,Wildfires,2026-03-23,98.75014158732078,20.57920504992878
+EONET_19022,Wildfire in China 1027960,wildfires,Wildfires,2026-03-23,129.68394540486588,46.132279404042855
+EONET_19023,Wildfire in Myanmar 1027975,wildfires,Wildfires,2026-03-23,97.59300460490586,22.075854567016055
+EONET_19024,Wildfire in China 1027976,wildfires,Wildfires,2026-03-23,125.96746389489789,44.33154740573391
+EONET_19025,Wildfire in Bangladesh 1027977,wildfires,Wildfires,2026-03-23,92.46603368279904,21.594801031795974
+EONET_19026,Wildfire in Laos 1027954,wildfires,Wildfires,2026-03-23,103.4125207665655,19.477427918567507
+EONET_19065,Wildfire in Thailand 1028011,wildfires,Wildfires,2026-03-23,98.71038888267391,18.57432923814665
+EONET_19066,"Wildfire in Myanmar, Thailand 1028012",wildfires,Wildfires,2026-03-23,97.43146473724788,18.537503983069765
+EONET_19067,Wildfire in Myanmar 1028001,wildfires,Wildfires,2026-03-23,97.02264430121437,19.20642019460293
+EONET_19086,Wildfire in Thailand 1028029,wildfires,Wildfires,2026-03-23,98.48300385623165,19.14909473823413
+EONET_19087,Wildfire in Myanmar 1028032,wildfires,Wildfires,2026-03-23,98.92115500822271,20.933036869712737
+EONET_19088,Wildfire in Laos 1028033,wildfires,Wildfires,2026-03-23,102.63398305028977,19.568616232849823
+EONET_19089,Wildfire in Myanmar 1028021,wildfires,Wildfires,2026-03-23,98.28873123453026,19.814154213176266
+EONET_19121,Wildfire in Thailand 1028060,wildfires,Wildfires,2026-03-23,99.00096079279406,19.559214461822254
+EONET_19122,Wildfire in China 1028061,wildfires,Wildfires,2026-03-23,127.35655869594815,46.01494656990976
+EONET_19123,Wildfire in Thailand 1028051,wildfires,Wildfires,2026-03-23,98.47182970327701,19.430214310044253
+EONET_19161,Wildfire in China 1028093,wildfires,Wildfires,2026-03-23,127.31043036102307,46.485561765623615
+EONET_19162,Wildfire in Thailand 1028094,wildfires,Wildfires,2026-03-23,97.97236900292229,18.5432315788975
+EONET_19163,Wildfire in Thailand 1028074,wildfires,Wildfires,2026-03-23,99.04683355567046,19.22719858118793
+EONET_19164,Wildfire in Thailand 1028075,wildfires,Wildfires,2026-03-23,97.96714311273158,17.911069143351387
+EONET_19184,Wildfire in China 1028114,wildfires,Wildfires,2026-03-23,125.67374851651742,44.25998824001625
+EONET_19185,Wildfire in Myanmar 1028115,wildfires,Wildfires,2026-03-23,92.5699280620595,21.038982929934757
+EONET_19186,"Wildfire in Myanmar, Thailand 1028101",wildfires,Wildfires,2026-03-23,97.8157645038815,19.234531058674442
+EONET_19187,Wildfire in China 1028104,wildfires,Wildfires,2026-03-23,127.3375107008724,46.48620534447378
+EONET_19188,Wildfire in Thailand 1028096,wildfires,Wildfires,2026-03-23,97.9456298990109,18.94752217076748
+EONET_19266,Wildfire in Thailand 1028119,wildfires,Wildfires,2026-03-23,98.42876553789777,17.578218367084958
+EONET_19267,Wildfire in Thailand 1028126,wildfires,Wildfires,2026-03-23,98.44441374988426,19.176269058750997
+EONET_19297,Wildfire in Laos 1028140,wildfires,Wildfires,2026-03-23,106.52663458566965,16.300944016634524
+EONET_19328,Wildfire in Myanmar 1028189,wildfires,Wildfires,2026-03-23,97.12563230063742,19.312534241585805
+EONET_19348,Wildfire in Myanmar 1028206,wildfires,Wildfires,2026-03-23,94.02663157057205,20.779020466280812
+EONET_19389,Wildfire in Laos 1028220,wildfires,Wildfires,2026-03-23,102.00867047062884,20.08240538507931
+EONET_18768,"Oxbow Wildfire, Okfuskee, Oklahoma",wildfires,Wildfires,2026-03-23,-96.4380556,35.5188889
+EONET_18772,"Polk Treat Mountain Wildfire, Floyd, Georgia",wildfires,Wildfires,2026-03-23,-85.4469444,34.2797222
+EONET_19009,"Big Hollow RX Prescribed Fire, Shannon, Missouri",wildfires,Wildfires,2026-03-23,-91.245283,37.024717
+EONET_18780,"MIDDLE CREEK Wildfire, Hughes, Oklahoma",wildfires,Wildfires,2026-03-23,-95.987222,35.207222
+EONET_18781,"SALTSMAN Wildfire, McIntosh, Oklahoma",wildfires,Wildfires,2026-03-23,-95.803611,35.203333
+EONET_18763,"Bienville CPT 65 66 RX Prescribed Fire, Scott, Mississippi",wildfires,Wildfires,2026-03-23,-89.3958,32.3396
+EONET_18786,"Barbed Wire Wildfire, Sequoyah, Oklahoma",wildfires,Wildfires,2026-03-23,-94.7688333,35.6081667
+EONET_18760,"DeSoto BB 0250 C-597 RX Prescribed Fire, Harrison, Mississippi",wildfires,Wildfires,2026-03-23,-89.0925,30.671033
+EONET_18767,"Indian Creek RX Prescribed Fire, Washington, Missouri",wildfires,Wildfires,2026-03-23,-90.96295,37.99645
+EONET_18757,"RX FY26 North River Road RX BIL Prescribed Fire, Newton, Arkansas",wildfires,Wildfires,2026-03-23,-93.163889,36.059167
+EONET_18779,"Chickasawhay CPT 373 377 378 RX Prescribed Fire, Wayne, Mississippi",wildfires,Wildfires,2026-03-23,-88.913,31.529
+EONET_18788,"NAN Split White Oak RX Prescribed Fire, Macon, North Carolina",wildfires,Wildfires,2026-03-23,-83.5877,35.2159
+EONET_18789,"Sonny Glle Wildfire, Adair, Oklahoma",wildfires,Wildfires,2026-03-23,-94.6327778,35.6419444
+EONET_18790,"Pumpkin Hollow Wildfire, Cherokee, Oklahoma",wildfires,Wildfires,2026-03-23,-94.8066667,36.0330556
+EONET_19196,"C-27/40 EN RX Prescribed Fire, Union, South Carolina",wildfires,Wildfires,2026-03-23,-81.650833,34.636389
+EONET_19359,"C-116 A/B FM RX Prescribed Fire, Berkeley, South Carolina",wildfires,Wildfires,2026-03-23,-79.797806,32.970528
+EONET_19360,"C-148 FM RX Prescribed Fire, Berkeley, South Carolina",wildfires,Wildfires,2026-03-23,-79.537472,33.17875
+EONET_18737,Tropical Cyclone 28P,severeStorms,Severe Storms,2026-03-23,162.5,-17.2
+EONET_18737,Tropical Cyclone 28P,severeStorms,Severe Storms,2026-03-23,162.9,-18.5
+EONET_18737,Tropical Cyclone 28P,severeStorms,Severe Storms,2026-03-23,162.9,-20.1
+EONET_18737,Tropical Cyclone 28P,severeStorms,Severe Storms,2026-03-23,163.5,-21.4
+EONET_18737,Tropical Cyclone 28P,severeStorms,Severe Storms,2026-03-24,163.8,-23.6
+EONET_18769,"Cross Timber Wildfire, Pottawatomie, Oklahoma",wildfires,Wildfires,2026-03-22,-96.9775,35.015
+EONET_18918,Wildfire in Laos 1027913,wildfires,Wildfires,2026-03-22,107.28861058072182,15.385051764439138
+EONET_18919,Wildfire in Venezuela 1027900,wildfires,Wildfires,2026-03-22,-68.82105190469943,6.4384469087633995
+EONET_19027,Wildfire in Laos 1027955,wildfires,Wildfires,2026-03-22,107.13051945272564,15.303335802853276
+EONET_19028,Wildfire in Myanmar 1027978,wildfires,Wildfires,2026-03-22,97.88015688684094,21.02922803082199
+EONET_19029,Wildfire in Thailand 1027979,wildfires,Wildfires,2026-03-22,99.85112618442854,18.582091963342496
+EONET_19030,Wildfire in Laos 1027980,wildfires,Wildfires,2026-03-22,102.99108132119137,19.641673934848573
+EONET_19031,"Wildfire in Bangladesh, Myanmar 1027981",wildfires,Wildfires,2026-03-22,92.44985592984452,21.487357816143042
+EONET_19032,Wildfire in Venezuela 1027961,wildfires,Wildfires,2026-03-22,-69.10679763039526,7.276776826531645
+EONET_19068,Wildfire in Thailand 1028002,wildfires,Wildfires,2026-03-22,99.05428163700257,18.973096607058814
+EONET_19069,Wildfire in Thailand 1028003,wildfires,Wildfires,2026-03-22,98.72075945018457,18.876393397310057
+EONET_19070,Wildfire in Myanmar 1028004,wildfires,Wildfires,2026-03-22,94.03858909750534,20.997922112619243
+EONET_19071,Wildfire in Thailand 1028013,wildfires,Wildfires,2026-03-22,99.29241891519973,17.79268243065624
+EONET_19072,Wildfire in Laos 1028014,wildfires,Wildfires,2026-03-22,101.70163716904433,18.998562238234296
+EONET_19090,Wildfire in Nigeria 1028020,wildfires,Wildfires,2026-03-22,13.973546109269215,12.308790095160989
+EONET_19091,Wildfire in Myanmar 1028034,wildfires,Wildfires,2026-03-22,99.51740444043064,20.436703023269366
+EONET_19124,Wildfire in Myanmar 1028062,wildfires,Wildfires,2026-03-22,97.37878338484734,19.170972976115596
+EONET_19125,Wildfire in Thailand 1028044,wildfires,Wildfires,2026-03-22,98.64666554785555,18.880408866854705
+EONET_19126,Wildfire in Myanmar 1028040,wildfires,Wildfires,2026-03-22,98.63455068138353,19.82877635449864
+EONET_19165,Wildfire in Thailand 1028076,wildfires,Wildfires,2026-03-22,100.99289291245631,18.247423265308623
+EONET_19166,Wildfire in Myanmar 1028095,wildfires,Wildfires,2026-03-22,98.70350644329062,20.492560136089054
+EONET_19167,Wildfire in Thailand 1028080,wildfires,Wildfires,2026-03-22,98.09068637663687,19.596208767002896
+EONET_19189,Wildfire in Thailand 1028102,wildfires,Wildfires,2026-03-22,99.25263354743795,18.99784354108889
+EONET_19268,Wildfire in Thailand 1028120,wildfires,Wildfires,2026-03-22,97.85145089853461,18.392340010553013
+EONET_19298,Wildfire in Myanmar 1028162,wildfires,Wildfires,2026-03-22,98.6978378504317,21.340329705444873
+EONET_19299,Wildfire in Laos 1028163,wildfires,Wildfires,2026-03-22,106.64109863898915,15.965374058675541
+EONET_18756,"Dennison Hollow/Stoneface RX Prescribed Fire, Pope, Illinois",wildfires,Wildfires,2026-03-22,-88.701897,37.384629
+EONET_18792,"Long Run Rockhouse RX Prescribed Fire, Perry, Indiana",wildfires,Wildfires,2026-03-22,-86.5858,38.0593
+EONET_19216,"Compartment 117 RX Prescribed Fire, Jasper, Georgia",wildfires,Wildfires,2026-03-22,-83.789,33.161772
+EONET_18771,"Jumping Juniper Wildfire, Dewey, Oklahoma",wildfires,Wildfires,2026-03-22,-99.2852778,36.0866667
+EONET_18751,"Tippah - CR 250 Wildfire, Tippah, Mississippi",wildfires,Wildfires,2026-03-22,-88.7819444,34.8483333
+EONET_18764,"Road 55 Wildfire, Baca, Colorado",wildfires,Wildfires,2026-03-22,-102.10395,37.22176
+EONET_18752,"BAKER RD Wildfire, Calhoun, Florida",wildfires,Wildfires,2026-03-22,-85.3222222,30.5072222
+EONET_19217,"6D/7S/8A RX Prescribed Fire, Jones, Georgia",wildfires,Wildfires,2026-03-22,-83.7338,33.1396
+EONET_18785,"Compartment 153 RX Prescribed Fire, Putnam, Georgia",wildfires,Wildfires,2026-03-22,-83.461761,33.320013
+EONET_18797,"Pound Gap RX Prescribed Fire, Wise, Virginia",wildfires,Wildfires,2026-03-22,-82.462667,36.892
+EONET_18787,"North River RX Prescribed Fire, Augusta, Virginia",wildfires,Wildfires,2026-03-22,-79.283194,38.416361
+EONET_18791,"RX East End Bear Mountain Prescribed Fire, Garland, Arkansas",wildfires,Wildfires,2026-03-22,-93.309722,34.555278
+EONET_19361,"C-149 FM RX Prescribed Fire, Berkeley, South Carolina",wildfires,Wildfires,2026-03-22,-79.520194,33.179528
+EONET_19362,"C-186 FM RX Prescribed Fire, Charleston, South Carolina",wildfires,Wildfires,2026-03-22,-79.649944,33.075361
+EONET_18798,"CRO C-35/C-36 Old Church Rd RX Prescribed Fire, Carteret, North Carolina",wildfires,Wildfires,2026-03-22,-77.1,34.778333
+EONET_18770,"Sunshine Hollow Wildfire, Pushmataha, Oklahoma",wildfires,Wildfires,2026-03-22,-95.5191667,34.3602778
+EONET_18778,"KANE Wildfire, Big Horn, Wyoming",wildfires,Wildfires,2026-03-21,-108.222067,44.860117
+EONET_18880,Wildfire in China 1027876,wildfires,Wildfires,2026-03-21,124.39862407928901,45.02968912004378
+EONET_18881,Wildfire in Colombia 1027870,wildfires,Wildfires,2026-03-21,-69.83438381784282,5.649154444497407
+EONET_18882,Wildfire in Colombia 1027871,wildfires,Wildfires,2026-03-21,-70.83924363778407,4.5979041690164735
+EONET_18920,Wildfire in China 1027908,wildfires,Wildfires,2026-03-21,122.85873059887462,47.39156118475613
+EONET_18921,Wildfire in India 1027903,wildfires,Wildfires,2026-03-21,77.32063314520911,22.60573901652114
+EONET_18922,Wildfire in Laos 1027914,wildfires,Wildfires,2026-03-21,107.2363977982897,15.49359461139395
+EONET_18923,Wildfire in China 1027915,wildfires,Wildfires,2026-03-21,126.87419356209705,45.380959560143246
+EONET_18950,Wildfire in India 1027940,wildfires,Wildfires,2026-03-21,77.41336076749292,22.568188469370803
+EONET_18951,Wildfire in Myanmar 1027946,wildfires,Wildfires,2026-03-21,99.68089452617453,20.38258407168181
+EONET_19033,Wildfire in Myanmar 1027962,wildfires,Wildfires,2026-03-21,97.21232313395203,19.146421685034113
+EONET_19034,Wildfire in Laos 1027982,wildfires,Wildfires,2026-03-21,101.43925136331603,20.306561936309482
+EONET_19035,Wildfire in Myanmar 1027983,wildfires,Wildfires,2026-03-21,97.4794120503729,19.756719304478924
+EONET_19036,Wildfire in Myanmar 1027984,wildfires,Wildfires,2026-03-21,98.69077136322353,19.921529344476234
+EONET_19037,Wildfire in Thailand 1027985,wildfires,Wildfires,2026-03-21,98.73506609313172,18.663493157179012
+EONET_19038,Wildfire in Myanmar 1027986,wildfires,Wildfires,2026-03-21,98.7759460940201,19.980203825133184
+EONET_19039,Wildfire in Laos 1027956,wildfires,Wildfires,2026-03-21,102.88506397468903,19.707978990809544
+EONET_19073,Wildfire in Laos 1028015,wildfires,Wildfires,2026-03-21,102.55604160261404,19.464120195121957
+EONET_19074,Wildfire in Laos 1028016,wildfires,Wildfires,2026-03-21,102.50345412407084,19.541947400511585
+EONET_19075,Wildfire in Thailand 1028005,wildfires,Wildfires,2026-03-21,98.88242981436493,19.202954450694744
+EONET_19092,Wildfire in India 1028019,wildfires,Wildfires,2026-03-21,80.33152223456531,19.004741022795553
+EONET_19093,Wildfire in Myanmar 1028035,wildfires,Wildfires,2026-03-21,99.04154576759483,20.858810625201222
+EONET_19094,Wildfire in Myanmar 1028036,wildfires,Wildfires,2026-03-21,98.99963484587627,20.634871301865477
+EONET_19095,Wildfire in Myanmar 1028023,wildfires,Wildfires,2026-03-21,98.4799299455239,19.842339907722454
+EONET_19096,Wildfire in Thailand 1028022,wildfires,Wildfires,2026-03-21,98.94405716388276,17.56033232485998
+EONET_19097,Wildfire in Myanmar 1028024,wildfires,Wildfires,2026-03-21,99.03821960210081,20.188487344258093
+EONET_19127,Wildfire in Myanmar 1028047,wildfires,Wildfires,2026-03-21,97.82394086269534,19.789080099469853
+EONET_19128,Wildfire in India 1028039,wildfires,Wildfires,2026-03-21,80.55611434052756,18.956320970356106
+EONET_19129,Wildfire in Myanmar 1028045,wildfires,Wildfires,2026-03-21,96.76282112215073,18.653413073235775
+EONET_19130,"Wildfire in Thailand, Myanmar 1028046",wildfires,Wildfires,2026-03-21,97.86958205048249,19.414126798935833
+EONET_19131,Wildfire in Myanmar 1028048,wildfires,Wildfires,2026-03-21,97.74792641255588,19.49864471274725
+EONET_19132,Wildfire in Laos 1028063,wildfires,Wildfires,2026-03-21,105.7353769103609,16.498445563246367
+EONET_19133,Wildfire in Laos 1028064,wildfires,Wildfires,2026-03-21,107.11428643008517,15.141695838346994
+EONET_19190,Wildfire in Myanmar 1028116,wildfires,Wildfires,2026-03-21,99.01880405556864,20.89237011694362
+EONET_19269,Wildfire in Thailand 1028127,wildfires,Wildfires,2026-03-21,97.98157207352727,17.88309172242939
+EONET_19300,Wildfire in Thailand 1028148,wildfires,Wildfires,2026-03-21,101.84382339882559,17.827413340261145
+EONET_18793,"Grey Road Wildfire, Butler, Kansas",wildfires,Wildfires,2026-03-21,-96.5991,37.6749
+EONET_19218,"Compartment 157 RX Prescribed Fire, Putnam, Georgia",wildfires,Wildfires,2026-03-21,-83.414038,33.41174
+EONET_18749,"SARDINE Wildfire, Pittsburg, Oklahoma",wildfires,Wildfires,2026-03-21,-95.59802,34.70711
+EONET_18766,"RX PCS Buffalo 1 Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-21,-94.216,34.806
+EONET_18799,"RX Beau Champ South Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-21,-93.870917,34.882067
+EONET_18801,"RX CAT BU 3 Prescribed Fire, Grant, Louisiana",wildfires,Wildfires,2026-03-21,-92.445278,31.740833
+EONET_18774,"Burgess East Wildfire, Clay, Alabama",wildfires,Wildfires,2026-03-21,-85.917891,33.364143
+EONET_18782,"Hall Valley Rd Wildfire, Floyd, Georgia",wildfires,Wildfires,2026-03-21,-85.4477778,34.2769444
+EONET_18802,"Compartment 146 RX Prescribed Fire, Perry, Alabama",wildfires,Wildfires,2026-03-21,-87.055383,32.674783
+EONET_18748,"TUS Elbow Creek RX Prescribed Fire, Cherokee, North Carolina",wildfires,Wildfires,2026-03-21,-84.254,35.220783
+EONET_18810,"SAND CREEK Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-21,-96.280622,36.426885
+EONET_18796,"Flatwoods Rx Prescribed Fire, Wise, Virginia",wildfires,Wildfires,2026-03-21,-82.450217,36.90875
+EONET_19197,"C-28A EN RX Prescribed Fire, Union, South Carolina",wildfires,Wildfires,2026-03-21,-81.683333,34.644444
+EONET_18800,"Spice Run Rx Prescribed Fire, Alleghany, Virginia",wildfires,Wildfires,2026-03-21,-80.07,37.655333
+EONET_19363,"C-76 and 78 FM RX Prescribed Fire, Berkeley, South Carolina",wildfires,Wildfires,2026-03-21,-79.884167,33.190083
+EONET_19220,"32N/33B RX Prescribed Fire, Jones, Georgia",wildfires,Wildfires,2026-03-20,-83.6682,33.0131
+EONET_19219,"Compartment 134 RX Prescribed Fire, Jones, Georgia",wildfires,Wildfires,2026-03-20,-83.480883,33.1793
+EONET_18807,"Big Mineral North RX Prescribed Fire, Grayson, Texas",wildfires,Wildfires,2026-03-20,-96.789282,33.705185
+EONET_18740,Wildfire in Colombia 1027857,wildfires,Wildfires,2026-03-20,-70.98774585080287,4.350612236152707
+EONET_18741,Wildfire in China 1027861,wildfires,Wildfires,2026-03-20,129.88338576813055,46.03343607659007
+EONET_18883,Wildfire in China 1027877,wildfires,Wildfires,2026-03-20,124.94005778714488,47.00540491656385
+EONET_18884,Wildfire in Myanmar 1027878,wildfires,Wildfires,2026-03-20,98.90592633722429,20.426161538919136
+EONET_18885,Wildfire in Colombia 1027865,wildfires,Wildfires,2026-03-20,-69.75457655219063,5.695250712557372
+EONET_18904,Wildfire in China 1027889,wildfires,Wildfires,2026-03-20,126.90875711994612,46.359759324960905
+EONET_18905,Wildfire in Colombia 1027890,wildfires,Wildfires,2026-03-20,-70.16698900422224,6.021035571776716
+EONET_18924,Wildfire in China 1027916,wildfires,Wildfires,2026-03-20,122.53625093482859,46.483374949440524
+EONET_18925,Wildfire in China 1027917,wildfires,Wildfires,2026-03-20,125.54805762942213,46.70478344462289
+EONET_18926,Wildfire in Laos 1027918,wildfires,Wildfires,2026-03-20,102.778648656204,19.470781265012107
+EONET_18927,Wildfire in Laos 1027919,wildfires,Wildfires,2026-03-20,103.18757100808956,19.827701508731163
+EONET_18928,Wildfire in China 1027920,wildfires,Wildfires,2026-03-20,126.77985846048796,45.33795604650515
+EONET_18929,Wildfire in Venezuela 1027904,wildfires,Wildfires,2026-03-20,-67.64602633237848,7.727255598560846
+EONET_18930,Wildfire in China 1027909,wildfires,Wildfires,2026-03-20,125.55282381149686,46.72995021992752
+EONET_18931,Wildfire in Senegal 1027901,wildfires,Wildfires,2026-03-20,-13.11104968692221,14.810201594233613
+EONET_18952,Wildfire in China 1027947,wildfires,Wildfires,2026-03-20,127.13154732766253,46.223694273949334
+EONET_18953,Wildfire in Laos 1027948,wildfires,Wildfires,2026-03-20,102.53095189365602,19.385492285576614
+EONET_18954,Wildfire in China 1027941,wildfires,Wildfires,2026-03-20,125.4181726286118,46.31043307907335
+EONET_18955,Wildfire in Myanmar 1027931,wildfires,Wildfires,2026-03-20,99.17386906157542,20.45838627787644
+EONET_19040,Wildfire in Myanmar 1027957,wildfires,Wildfires,2026-03-20,99.16197209042943,20.454857039432074
+EONET_19041,Wildfire in China 1027987,wildfires,Wildfires,2026-03-20,124.87808772897968,47.016370488817365
+EONET_19042,Wildfire in Myanmar 1027988,wildfires,Wildfires,2026-03-20,98.74846925126712,20.587578785492443
+EONET_19043,Wildfire in Thailand 1027989,wildfires,Wildfires,2026-03-20,98.87486467722229,16.979149548621137
+EONET_19044,Wildfire in Myanmar 1027990,wildfires,Wildfires,2026-03-20,97.26400080337918,17.841561407939512
+EONET_19045,Wildfire in China 1027991,wildfires,Wildfires,2026-03-20,126.35125041726027,44.28277061997456
+EONET_19046,Wildfire in Myanmar 1027963,wildfires,Wildfires,2026-03-20,97.80468627195685,19.97553845443851
+EONET_19047,Wildfire in China 1027964,wildfires,Wildfires,2026-03-20,127.03040691447234,45.73754221305449
+EONET_19048,Wildfire in Thailand 1027965,wildfires,Wildfires,2026-03-20,99.15991965453856,19.02863808919743
+EONET_19049,Wildfire in Thailand 1027966,wildfires,Wildfires,2026-03-20,99.08854649280254,19.46888026004467
+EONET_19076,Wildfire in Myanmar 1028006,wildfires,Wildfires,2026-03-20,98.71652470929816,20.801510290508304
+EONET_19077,Wildfire in Myanmar 1028017,wildfires,Wildfires,2026-03-20,98.7142877847841,20.614174124579968
+EONET_19098,Wildfire in Myanmar 1028030,wildfires,Wildfires,2026-03-20,98.48141052089045,19.93499767268209
+EONET_19099,Wildfire in Thailand 1028025,wildfires,Wildfires,2026-03-20,98.98308673756034,17.53492062537939
+EONET_19134,Wildfire in Thailand 1028065,wildfires,Wildfires,2026-03-20,98.05876309070052,19.413750054603284
+EONET_19135,Wildfire in Myanmar 1028066,wildfires,Wildfires,2026-03-20,97.43963171220864,19.47396108589576
+EONET_19136,Wildfire in China 1028067,wildfires,Wildfires,2026-03-20,125.98873406338707,44.30467839829929
+EONET_19137,Wildfire in Myanmar 1028049,wildfires,Wildfires,2026-03-20,97.99966527095107,19.974911032888272
+EONET_19138,Wildfire in Thailand 1028050,wildfires,Wildfires,2026-03-20,98.74987173196376,18.844822759579362
+EONET_19191,Wildfire in Myanmar 1028097,wildfires,Wildfires,2026-03-20,96.57776346422867,20.351416258097448
+EONET_19270,Wildfire in Thailand 1028131,wildfires,Wildfires,2026-03-20,99.72097929087971,18.933731920211784
+EONET_19271,Wildfire in Thailand 1028138,wildfires,Wildfires,2026-03-20,100.90049797061631,18.25361890097817
+EONET_19272,Wildfire in Myanmar 1028132,wildfires,Wildfires,2026-03-20,97.76788545158695,19.140181849297917
+EONET_18803,"Sandpiper Wildfire, Natrona, Wyoming",wildfires,Wildfires,2026-03-20,-106.14654,42.90757
+EONET_18794,"Sharp Rock RX Prescribed Fire, Jackson, Illinois",wildfires,Wildfires,2026-03-20,-89.513588,37.830978
+EONET_18784,"March Wildfire, Powder River, Montana",wildfires,Wildfires,2026-03-20,-105.6228,45.1149
+EONET_18820,"RX PCS South Waldron Ridge 10 Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-20,-93.870917,34.882067
+EONET_18811,"RX PCS Turkey Creek East Prescribed Fire, Scott, Arkansas",wildfires,Wildfires,2026-03-20,-93.97866,34.768276
+EONET_18777,"SAND CREEK Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-20,-96.280967,36.4266
+EONET_19000,"Rattlesnake RX Prescribed Fire, Luna, New Mexico",wildfires,Wildfires,2026-03-20,-107.62402,32.45655
+EONET_18823,"Ridge Road RX Prescribed Fire, Clay, Alabama",wildfires,Wildfires,2026-03-20,-85.908056,33.441667
+EONET_18812,"Seed Tick Tornado West RX Prescribed Fire, Wayne, Missouri",wildfires,Wildfires,2026-03-20,-90.68759,36.955356
+EONET_18776,"Homochitto BB 42 sub 4 RX Prescribed Fire, Franklin, Mississippi",wildfires,Wildfires,2026-03-20,-91.077,31.372
+EONET_18808,"SNF Red Hills C-71/72/74 RX Prescribed Fire, Sabine, Texas",wildfires,Wildfires,2026-03-20,-93.809533,31.469917
+EONET_18822,"Chickasawhay CPT 433 RX Prescribed Fire, Wayne, Mississippi",wildfires,Wildfires,2026-03-20,-88.7483,31.4912
+EONET_19251,"NORTH BIRD Wildfire, Osage, Oklahoma",wildfires,Wildfires,2026-03-20,-96.46735,36.80244
+EONET_18824,"Brown Creek RX Prescribed Fire, Lawrence, Alabama",wildfires,Wildfires,2026-03-20,-87.2295,34.30163
+EONET_18817,"RX BO/MAG Dean Reid Prescribed Fire, Logan, Arkansas",wildfires,Wildfires,2026-03-20,-93.365711,35.220262
+EONET_18821,"Compartment 104 RX Prescribed Fire, Bibb, Alabama",wildfires,Wildfires,2026-03-20,-87.028753,32.888971
+EONET_18816,"RX Vanderslice Unit 6 Prescribed Fire, Montgomery, Arkansas",wildfires,Wildfires,2026-03-20,-93.411794,34.638603
+EONET_18814,"RX Mt Clair Prescribed Fire, Polk, Arkansas",wildfires,Wildfires,2026-03-20,-94.313611,34.411944
+EONET_18815,"RX Buck Crk SU1 Prescribed Fire, McCurtain, Oklahoma",wildfires,Wildfires,2026-03-20,-94.71035,34.338967
+EONET_19370,"C-242 GOVERNOR SCHOOL LC RX Prescribed Fire, McCormick, South Carolina",wildfires,Wildfires,2026-03-20,-82.402642,33.943442
+EONET_19371,"C-249 MIDDLE LC RX Prescribed Fire, McCormick, South Carolina",wildfires,Wildfires,2026-03-20,-82.478506,33.931944
+EONET_19198,"C-105/106 EN RX Prescribed Fire, Newberry, South Carolina",wildfires,Wildfires,2026-03-20,-81.575,34.467222
+EONET_18997,"Grasshopper Hollow RX Prescribed Fire, Reynolds, Missouri",wildfires,Wildfires,2026-03-19,-91.098967,37.432883
+EONET_18738,Flood in Oman 1103806,floods,Floods,2026-03-19,57.8820597,23.6665754
+EONET_19276,Flood in Zimbabwe 1103829,floods,Floods,2026-03-19,31.3202631,-21.6777017
+EONET_18726,Wildfire in Venezuela 1027847,wildfires,Wildfires,2026-03-19,-61.9237821285495,9.82884427746921
+EONET_18729,Wildfire in Russian Federation 1027850,wildfires,Wildfires,2026-03-19,130.98323178727384,42.70488987236378
+EONET_18886,Wildfire in China 1027879,wildfires,Wildfires,2026-03-19,126.77984694236073,45.51582252146975
+EONET_18887,Wildfire in China 1027880,wildfires,Wildfires,2026-03-19,131.27755625730217,46.75536833617551
+EONET_18888,Wildfire in China 1027872,wildfires,Wildfires,2026-03-19,131.3466603804817,46.698396675703115
+EONET_18906,Wildfire in Venezuela 1027891,wildfires,Wildfires,2026-03-19,-68.61541891891744,6.282004446830165
+EONET_18907,Wildfire in China 1027893,wildfires,Wildfires,2026-03-19,123.21291462311777,47.61399607298145
+EONET_18908,Wildfire in Myanmar 1027894,wildfires,Wildfires,2026-03-19,98.85593558440488,20.11773912187582
+EONET_18932,Wildfire in Venezuela 1027921,wildfires,Wildfires,2026-03-19,-68.84061761024287,6.3364140427390785
+EONET_18933,Wildfire in Myanmar 1027922,wildfires,Wildfires,2026-03-19,98.31472247356197,21.226949789162887
+EONET_18956,Wildfire in Myanmar 1027932,wildfires,Wildfires,2026-03-19,98.25564258758494,20.00380410761046
+EONET_18957,Wildfire in Myanmar 1027933,wildfires,Wildfires,2026-03-19,98.5383036517417,20.75327824808741
+EONET_18958,Wildfire in Myanmar 1027934,wildfires,Wildfires,2026-03-19,98.78935181389319,20.9788213509666
+EONET_18959,Wildfire in Myanmar 1027935,wildfires,Wildfires,2026-03-19,97.63066311599647,19.430652384198563
+EONET_18960,Wildfire in Myanmar 1027927,wildfires,Wildfires,2026-03-19,97.34562094078127,22.804161701282172
+EONET_18961,Wildfire in Thailand 1027949,wildfires,Wildfires,2026-03-19,98.81090838198404,17.701756431463707
+EONET_18962,Wildfire in India 1027950,wildfires,Wildfires,2026-03-19,80.40358758439181,19.654785580444816
+EONET_18963,Wildfire in China 1027951,wildfires,Wildfires,2026-03-19,123.163164235281,47.53016112527859
+EONET_19050,Wildfire in Myanmar 1027967,wildfires,Wildfires,2026-03-19,97.10555273755162,19.088272376466907
+EONET_19051,Wildfire in China 1027992,wildfires,Wildfires,2026-03-19,125.66364709299394,44.177759809661
+EONET_19052,Wildfire in China 1027993,wildfires,Wildfires,2026-03-19,127.13288277470443,46.38960240795
+EONET_19053,Wildfire in China 1027994,wildfires,Wildfires,2026-03-19,124.67681459359856,47.35508416697153
+EONET_19078,Wildfire in Myanmar 1028018,wildfires,Wildfires,2026-03-19,97.56800570588383,20.120689793773636
+EONET_19079,Wildfire in Thailand 1028007,wildfires,Wildfires,2026-03-19,100.10095559458486,19.285041475501156
+EONET_19100,Wildfire in Myanmar 1028026,wildfires,Wildfires,2026-03-19,97.41829537400162,18.896530631053345
+EONET_19101,Wildfire in Thailand 1028037,wildfires,Wildfires,2026-03-19,98.70323301257439,17.102786080161078
+EONET_19168,Wildfire in Thailand 1028077,wildfires,Wildfires,2026-03-19,99.72494438135519,18.52792693158507
+EONET_19301,Wildfire in Myanmar 1028149,wildfires,Wildfires,2026-03-19,98.687360215092,20.360247478934603
+EONET_19221,"4B/4C RX Prescribed Fire, Jasper, Georgia",wildfires,Wildfires,2026-03-19,-83.7738,33.1448
+EONET_18759,"Armstrong Oaks Wildfire, Kenedy, Texas",wildfires,Wildfires,2026-03-19,-97.9066,26.9908

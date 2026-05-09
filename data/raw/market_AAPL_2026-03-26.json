@@ -1,0 +1,702 @@
+[
+  {
+    "date": "2026-03-25",
+    "open": 254.095,
+    "close": 252.62,
+    "volume": 28476668,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-24",
+    "open": 250.35,
+    "close": 251.64,
+    "volume": 45152288,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-23",
+    "open": 253.97,
+    "close": 251.49,
+    "volume": 40546109,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-20",
+    "open": 247.975,
+    "close": 247.99,
+    "volume": 88331081,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-19",
+    "open": 249.4,
+    "close": 248.96,
+    "volume": 34864082,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-18",
+    "open": 252.625,
+    "close": 249.94,
+    "volume": 35757874,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-17",
+    "open": 252.955,
+    "close": 254.23,
+    "volume": 32361607,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-16",
+    "open": 252.105,
+    "close": 252.82,
+    "volume": 32074209,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-13",
+    "open": 255.48,
+    "close": 250.12,
+    "volume": 36929988,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-12",
+    "open": 258.66,
+    "close": 255.76,
+    "volume": 40794020,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-11",
+    "open": 261.09,
+    "close": 260.81,
+    "volume": 26218927,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-10",
+    "open": 257.645,
+    "close": 260.83,
+    "volume": 30590765,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-09",
+    "open": 255.69,
+    "close": 259.88,
+    "volume": 38218533,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-06",
+    "open": 258.63,
+    "close": 257.46,
+    "volume": 41120042,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-05",
+    "open": 260.79,
+    "close": 260.29,
+    "volume": 49658626,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-04",
+    "open": 264.65,
+    "close": 262.52,
+    "volume": 39803119,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-03",
+    "open": 263.48,
+    "close": 263.75,
+    "volume": 38568921,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-03-02",
+    "open": 262.41,
+    "close": 264.72,
+    "volume": 41827946,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-27",
+    "open": 272.81,
+    "close": 264.18,
+    "volume": 72366505,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-26",
+    "open": 274.945,
+    "close": 272.95,
+    "volume": 32345114,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-25",
+    "open": 271.78,
+    "close": 274.23,
+    "volume": 33714342,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-24",
+    "open": 267.86,
+    "close": 272.14,
+    "volume": 47014619,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-23",
+    "open": 263.49,
+    "close": 266.18,
+    "volume": 37308155,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-20",
+    "open": 258.97,
+    "close": 264.58,
+    "volume": 42070499,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-19",
+    "open": 262.6,
+    "close": 260.58,
+    "volume": 30845294,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-18",
+    "open": 263.6,
+    "close": 264.35,
+    "volume": 34203337,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-17",
+    "open": 258.05,
+    "close": 263.88,
+    "volume": 58469094,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-13",
+    "open": 262.01,
+    "close": 255.78,
+    "volume": 56290673,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-12",
+    "open": 275.59,
+    "close": 261.73,
+    "volume": 81077229,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-11",
+    "open": 274.695,
+    "close": 275.5,
+    "volume": 51931283,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-10",
+    "open": 274.885,
+    "close": 273.68,
+    "volume": 34376898,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-09",
+    "open": 277.905,
+    "close": 274.62,
+    "volume": 44623396,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-06",
+    "open": 277.12,
+    "close": 278.12,
+    "volume": 50453414,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-05",
+    "open": 278.13,
+    "close": 275.91,
+    "volume": 52977441,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-04",
+    "open": 272.285,
+    "close": 276.49,
+    "volume": 90545710,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-03",
+    "open": 269.2,
+    "close": 269.48,
+    "volume": 63799388,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-02-02",
+    "open": 260.03,
+    "close": 270.01,
+    "volume": 73913425,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-30",
+    "open": 255.165,
+    "close": 259.48,
+    "volume": 92443408,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-29",
+    "open": 258.0,
+    "close": 258.28,
+    "volume": 67253009,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-28",
+    "open": 257.65,
+    "close": 256.44,
+    "volume": 41287971,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-27",
+    "open": 259.17,
+    "close": 258.27,
+    "volume": 48787855,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-26",
+    "open": 251.48,
+    "close": 255.41,
+    "volume": 55969234,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-23",
+    "open": 247.32,
+    "close": 248.04,
+    "volume": 41688982,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-22",
+    "open": 249.2,
+    "close": 248.35,
+    "volume": 39708340,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-21",
+    "open": 248.7,
+    "close": 247.65,
+    "volume": 54641725,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-20",
+    "open": 252.73,
+    "close": 246.7,
+    "volume": 77280987,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-16",
+    "open": 257.9,
+    "close": 255.53,
+    "volume": 72142773,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-15",
+    "open": 260.65,
+    "close": 258.21,
+    "volume": 39388564,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-14",
+    "open": 259.49,
+    "close": 259.96,
+    "volume": 40019421,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-13",
+    "open": 258.72,
+    "close": 261.05,
+    "volume": 45730847,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-12",
+    "open": 259.16,
+    "close": 260.25,
+    "volume": 45263767,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-09",
+    "open": 259.075,
+    "close": 259.37,
+    "volume": 39996967,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-08",
+    "open": 257.02,
+    "close": 259.04,
+    "volume": 50419337,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-07",
+    "open": 263.2,
+    "close": 260.33,
+    "volume": 48309804,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-06",
+    "open": 267.0,
+    "close": 262.36,
+    "volume": 52352090,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-05",
+    "open": 270.64,
+    "close": 267.26,
+    "volume": 45647190,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2026-01-02",
+    "open": 272.255,
+    "close": 271.01,
+    "volume": 37838054,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-31",
+    "open": 273.06,
+    "close": 271.86,
+    "volume": 27293639,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-30",
+    "open": 272.81,
+    "close": 273.08,
+    "volume": 22139617,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-29",
+    "open": 272.69,
+    "close": 273.76,
+    "volume": 23715213,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-26",
+    "open": 274.16,
+    "close": 273.4,
+    "volume": 21521802,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-24",
+    "open": 272.34,
+    "close": 273.81,
+    "volume": 17910574,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-23",
+    "open": 270.84,
+    "close": 272.36,
+    "volume": 29641999,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-22",
+    "open": 272.86,
+    "close": 270.97,
+    "volume": 36571827,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-19",
+    "open": 272.145,
+    "close": 273.67,
+    "volume": 144632048,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-18",
+    "open": 273.605,
+    "close": 272.19,
+    "volume": 51630721,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-17",
+    "open": 275.01,
+    "close": 271.84,
+    "volume": 50138743,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-16",
+    "open": 272.82,
+    "close": 274.61,
+    "volume": 37648628,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-15",
+    "open": 280.15,
+    "close": 274.11,
+    "volume": 50409078,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-12",
+    "open": 277.9,
+    "close": 278.28,
+    "volume": 39532887,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-11",
+    "open": 279.095,
+    "close": 278.03,
+    "volume": 33247986,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-10",
+    "open": 277.75,
+    "close": 278.78,
+    "volume": 33038318,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-09",
+    "open": 278.16,
+    "close": 277.18,
+    "volume": 31753410,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-08",
+    "open": 278.13,
+    "close": 277.89,
+    "volume": 36406317,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-05",
+    "open": 280.54,
+    "close": 278.78,
+    "volume": 47265845,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-04",
+    "open": 284.095,
+    "close": 280.7,
+    "volume": 43989056,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-03",
+    "open": 286.2,
+    "close": 284.15,
+    "volume": 43538687,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-02",
+    "open": 283.0,
+    "close": 286.19,
+    "volume": 53669532,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-12-01",
+    "open": 278.01,
+    "close": 283.1,
+    "volume": 46587722,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-28",
+    "open": 277.26,
+    "close": 278.85,
+    "volume": 20135620,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-26",
+    "open": 276.96,
+    "close": 277.55,
+    "volume": 33431423,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-25",
+    "open": 275.27,
+    "close": 276.97,
+    "volume": 46914220,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-24",
+    "open": 270.9,
+    "close": 275.92,
+    "volume": 65585796,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-21",
+    "open": 265.95,
+    "close": 271.49,
+    "volume": 59030832,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-20",
+    "open": 270.83,
+    "close": 266.25,
+    "volume": 45823568,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-19",
+    "open": 265.525,
+    "close": 268.56,
+    "volume": 40424492,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-18",
+    "open": 269.99,
+    "close": 267.44,
+    "volume": 45677278,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-17",
+    "open": 268.815,
+    "close": 267.46,
+    "volume": 45018260,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-14",
+    "open": 271.05,
+    "close": 272.41,
+    "volume": 47431331,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-13",
+    "open": 274.11,
+    "close": 272.95,
+    "volume": 49602794,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-12",
+    "open": 275.0,
+    "close": 273.47,
+    "volume": 48397982,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-11",
+    "open": 269.81,
+    "close": 275.25,
+    "volume": 46208318,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-10",
+    "open": 268.96,
+    "close": 269.43,
+    "volume": 41312412,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-07",
+    "open": 269.795,
+    "close": 268.47,
+    "volume": 48227365,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-06",
+    "open": 267.89,
+    "close": 269.77,
+    "volume": 51204045,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-05",
+    "open": 268.61,
+    "close": 270.14,
+    "volume": 42586288,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-04",
+    "open": 268.325,
+    "close": 270.04,
+    "volume": 49274846,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-11-03",
+    "open": 270.42,
+    "close": 269.05,
+    "volume": 50194583,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-10-31",
+    "open": 276.99,
+    "close": 270.37,
+    "volume": 86167123,
+    "ticker": "AAPL"
+  },
+  {
+    "date": "2025-10-30",
+    "open": 271.99,
+    "close": 271.4,
+    "volume": 69886534,
+    "ticker": "AAPL"
+  }
+]

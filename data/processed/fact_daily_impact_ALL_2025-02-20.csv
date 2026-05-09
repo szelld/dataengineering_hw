@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
+2025-02-20,ALL,189.18,1382170,6,0,US-NEW_ORLEANS,New Orleans,United States,29.9511,-90.0715,357.95,2025,2,20,False,Allstate Corporation,Insurance

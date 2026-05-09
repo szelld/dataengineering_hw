@@ -1,0 +1,2 @@
+date_key,ticker,stock_close_price,stock_volume,active_disaster_count,year,month,day,is_weekend,company_name,sector
+2026-03-09,AAPL,259.88,38218533,0,2026,3,9,False,AAPL,Unknown

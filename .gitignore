@@ -5,8 +5,11 @@
 __pycache__/
 *.pyc
 
-# Local data artifacts
+# Airflow runtime logs (large, machine-specific)
 logs/
 *.log
-data/processed
-data/raw
+
+# Keep data/processed and data/raw tracked — the pre-built historical CSVs
+# and raw EONET/market JSON files are committed so a fresh clone has the full
+# transform cache.  Teachers can run the DAG immediately without the 10-min
+# historical backfill.
