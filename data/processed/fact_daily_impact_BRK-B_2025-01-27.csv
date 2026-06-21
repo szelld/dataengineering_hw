@@ -1,2 +1,0 @@
-date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
-2025-01-27,BRK-B,474.7,4535629,14,0,US-MIAMI,Miami,United States,25.7617,-80.1918,125.21,2025,1,27,False,Berkshire Hathaway Inc. Class B,Insurance

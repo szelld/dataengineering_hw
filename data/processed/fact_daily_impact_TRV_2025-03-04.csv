@@ -1,2 +1,0 @@
-date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
-2025-03-04,TRV,255.7,1151690,6,0,US-AUSTIN,Austin,United States,30.2672,-97.7431,808.84,2025,3,4,False,Travelers Companies Inc.,Insurance

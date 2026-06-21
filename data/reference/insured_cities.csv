@@ -1,0 +1,11 @@
+city_id,city_name,country,latitude,longitude
+US-LOS_ANGELES,Los Angeles,United States,34.0522,-118.2437
+US-SAN_FRANCISCO,San Francisco,United States,37.7749,-122.4194
+US-SACRAMENTO,Sacramento,United States,38.5816,-121.4944
+US-DENVER,Denver,United States,39.7392,-104.9903
+US-PHOENIX,Phoenix,United States,33.4484,-112.0740
+US-AUSTIN,Austin,United States,30.2672,-97.7431
+US-DALLAS,Dallas,United States,32.7767,-96.7970
+US-HOUSTON,Houston,United States,29.7604,-95.3698
+US-MIAMI,Miami,United States,25.7617,-80.1918
+US-NEW_ORLEANS,New Orleans,United States,29.9511,-90.0715

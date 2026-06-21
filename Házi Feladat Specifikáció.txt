@@ -1,0 +1,42 @@
+# Házi Feladat Specifikáció
+**Data Engineering** - Opcionális házi feladat
+
+---
+
+## 1. Hallgató adatai
+
+| | |
+|---|---|
+| **Név** | Széll Dávid |
+| **Neptun-kód** | D4VKW2 |
+| **E-mail** | david.szell2020@gmail.com |
+
+---
+
+## 2. Témaválasztás
+
+| | |
+|---|---|
+| **Választott téma** | NASA természeti események és részvénypiaci teljesítmény korrelációja |
+
+**Rövid leírás** *(2–4 mondat: milyen üzleti/elemzési kérdést old meg a pipeline? Milyen forrásadatokból indul ki, és milyen eredményt produkál?)*
+
+A pipeline célja annak vizsgálata, hogy a NASA EONET-ben megjelenő természeti események intenzitása hogyan függ össze a kiválasztott, katasztrófára érzékeny részvények napi teljesítményével. A folyamat két API forrásból indul: NASA EONET eseményadatokból amelyet összekapcsol a napi záróárral és volumennel. Az eredmény csillagsémás adattárházi táblákba kerül, ahol SQL lekérdezések és Metabase vizualizációk alapját adja.
+
+---
+
+## 3. Tervezett pipeline elemei
+
+| Elem | Tervezett megoldás / eszköz |
+|---|---|
+| **Adatforrások** *(min. 2)* | NASA EONET REST API + részvénypiaci API |
+| **Feldolgozási mód** | Batch (napi ütemezés) |
+| **Landing zone** *(nyers tároló)* | Lokális fájlrendszer (data/raw mappa, konténeren belül mountolva) |
+| **Adatmodell típusa** | Csillag séma |
+| **Adattárház / adatplatform** | PostgreSQL 15 |
+| **Transzformáció** | Python + Pandas (json_normalize, explode, napi aggregáció, merge) |
+| **Orchestration eszköz** | Apache Airflow 2.9 |
+| **Infrastruktúra** | Docker Compose (Airflow + PostgreSQL + Metabase szolgáltatások) |
+| **Adatkiszolgálás** | SQL lekérdezések + Metabase dashboardok |
+
+---

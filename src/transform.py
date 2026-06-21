@@ -27,6 +27,18 @@ DEFAULT_CITY_ROWS = [
 ]
 
 
+def _relevant_categories() -> list[str] | None:
+    """Return configured EONET categories; ALL disables category filtering."""
+    raw = os.getenv(
+        "RELEVANT_EVENT_CATEGORIES",
+        "Wildfires,Severe Storms,Floods,Landslides,Earthquakes,Temperature Extremes,Drought",
+    )
+    categories = [category.strip() for category in raw.split(",") if category.strip()]
+    if any(category.upper() == "ALL" for category in categories):
+        return None
+    return categories
+
+
 def _company_metadata(ticker: str) -> tuple[str, str]:
     """Return company name and sector for disaster-sensitive industries."""
     lookup = {
@@ -225,91 +237,71 @@ def _flatten_eonet_events(eonet_json_path: str) -> pd.DataFrame:
     return flattened
 
 
-def _aggregate_disaster_intensity(flattened_df: pd.DataFrame, relevant_categories: list[str]) -> pd.DataFrame:
-    """
-    Filter for relevant disaster categories and aggregate by date.
+def build_city_disaster_daily(flattened_eonet: pd.DataFrame, cities_df: pd.DataFrame, execution_date: str) -> pd.DataFrame:
+    exec_ts = pd.to_datetime(execution_date).date()
     
-    Args:
-        flattened_df: DataFrame with columns [event_id, category_name, date, ...]
-        relevant_categories: List of category names to filter (e.g., ["Wildfires", "Severe Storms"])
+    # Filter EONET data for the execution date
+    if not flattened_eonet.empty:
+        day_events = flattened_eonet[flattened_eonet["date"] == exec_ts].copy()
+    else:
+        day_events = pd.DataFrame()
     
-    Returns:
-        DataFrame with daily global and city-proximity disaster metrics.
-    """
-    if flattened_df.empty:
-        return pd.DataFrame(
-            columns=[
-                "date",
-                "active_disaster_count",
-                "nearby_disaster_count",
-                "nearest_city_id",
-                "nearest_city_name",
-                "nearest_city_country",
-                "nearest_city_latitude",
-                "nearest_city_longitude",
-                "nearest_disaster_distance_km",
+    # Filter for configured disaster categories. This is intentionally city-independent:
+    # a Los Angeles risk day is counted from disasters near Los Angeles even if another
+    # same-day event is closer to a different city.
+    relevant_categories = _relevant_categories()
+    if not day_events.empty:
+        if relevant_categories is not None:
+            day_events = day_events[
+                day_events["category_name"].fillna("").str.lower().isin([cat.lower() for cat in relevant_categories])
             ]
-        )
     
-    # Filter for relevant categories (case-insensitive)
-    filtered = flattened_df[
-        flattened_df["category_name"].fillna("").str.lower().isin([cat.lower() for cat in relevant_categories])
-    ].copy()
+    active_disaster_count = day_events["event_id"].nunique() if not day_events.empty else 0
     
-    if filtered.empty:
-        return pd.DataFrame(
-            columns=[
-                "date",
-                "active_disaster_count",
-                "nearby_disaster_count",
-                "nearest_city_id",
-                "nearest_city_name",
-                "nearest_city_country",
-                "nearest_city_latitude",
-                "nearest_city_longitude",
-                "nearest_disaster_distance_km",
-            ]
-        )
-
-    filtered["is_near_city"] = filtered["nearest_disaster_distance_km"].le(CITY_IMPACT_RADIUS_KM)
-
-    def nearest_city_field_for_day(group: pd.DataFrame, field_name: str):
-        valid = group.dropna(subset=["nearest_disaster_distance_km"])
-        if valid.empty:
-            return None
-        return valid.loc[valid["nearest_disaster_distance_km"].idxmin(), field_name]
-
-    # Group by date and count unique events; one event can span multiple days.
-    aggregated = filtered.groupby("date").apply(
-        lambda group: pd.Series(
-            {
-                "active_disaster_count": group["event_id"].nunique(),
-                "nearby_disaster_count": group.loc[group["is_near_city"], "event_id"].nunique(),
-                "nearest_city_id": nearest_city_field_for_day(group, "nearest_city_id"),
-                "nearest_city_name": nearest_city_field_for_day(group, "nearest_city_name"),
-                "nearest_city_country": nearest_city_field_for_day(group, "nearest_city_country"),
-                "nearest_city_latitude": nearest_city_field_for_day(group, "nearest_city_latitude"),
-                "nearest_city_longitude": nearest_city_field_for_day(group, "nearest_city_longitude"),
-                "nearest_disaster_distance_km": group["nearest_disaster_distance_km"].min(),
-            }
-        ),
-    ).reset_index()
+    city_records = cities_df.to_dict("records")
+    results = []
     
-    return aggregated
-
+    for city in city_records:
+        city_id = city["city_id"]
+        
+        if day_events.empty:
+            min_dist = None
+            nearby_count = 0
+        else:
+            # calculate distance to ALL events
+            distances = []
+            for _, row in day_events.iterrows():
+                if pd.notna(row["latitude"]) and pd.notna(row["longitude"]):
+                    dist = _haversine_km(float(row["latitude"]), float(row["longitude"]), float(city["latitude"]), float(city["longitude"]))
+                    distances.append((row["event_id"], dist))
+            
+            if not distances:
+                min_dist = None
+                nearby_count = 0
+            else:
+                min_dist = min(d[1] for d in distances)
+                # Count unique events within impact radius
+                nearby_events = {d[0] for d in distances if d[1] <= CITY_IMPACT_RADIUS_KM}
+                nearby_count = len(nearby_events)
+                
+        results.append({
+            "date_key": str(exec_ts),
+            "city_id": city_id,
+            "active_disaster_count": active_disaster_count,
+            "nearby_disaster_count": nearby_count,
+            "nearest_disaster_distance_km": round(min_dist, 2) if min_dist is not None else None,
+            "is_nearby_disaster": nearby_count > 0,
+            "year": exec_ts.year,
+            "month": exec_ts.month,
+            "day": exec_ts.day,
+            "is_weekend": exec_ts.weekday() >= 5
+        })
+        
+    return pd.DataFrame(results)
 
 def build_daily_datasets(market_path: str, eonet_path: str, ticker: str, execution_date: str) -> dict:
     """
-    Build daily fact dataset correlating disaster intensity with stock performance.
-    
-    Args:
-        market_path: Path to the market data JSON file (from extract.py)
-        eonet_path: Path to the NASA EONET JSON file (from extract.py)
-        ticker: Stock ticker symbol (e.g., "ALL", "HD", "CVX")
-        execution_date: Date string in format YYYY-MM-DD
-    
-    Returns:
-        Dictionary with paths to the generated CSV files
+    Build daily fact datasets for stock performance and city disasters.
     """
     LOGGER.info(
         "Transform start | ticker=%s execution_date=%s market_path=%s eonet_path=%s",
@@ -321,10 +313,9 @@ def build_daily_datasets(market_path: str, eonet_path: str, ticker: str, executi
     
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Load market data
+    # 1. Build Stock CSV
     try:
         market_df = pd.read_json(market_path)
-        LOGGER.info("Market data loaded | ticker=%s rows=%s", ticker, len(market_df))
     except Exception as e:
         LOGGER.exception("Failed to load market data | ticker=%s", ticker)
         raise
@@ -336,123 +327,49 @@ def build_daily_datasets(market_path: str, eonet_path: str, ticker: str, executi
     market_df = market_df.dropna(subset=["date", "open", "close", "volume"]).copy()
     market_df["date_normalized"] = market_df["date"].dt.date
     
-    LOGGER.info("Market data cleaned | ticker=%s rows=%s", ticker, len(market_df))
+    exec_ts = pd.to_datetime(execution_date).date()
+    market_daily = market_df[market_df["date_normalized"] == exec_ts].copy()
     
-    exec_ts = pd.to_datetime(execution_date)
-    market_daily = market_df[market_df["date"] <= exec_ts].sort_values("date").tail(1).copy()
-    
-    if market_daily.empty:
-        earliest_row = market_df.sort_values("date").head(1).copy()
-        if earliest_row.empty:
-            raise RuntimeError("No market data available after cleaning")
-
-        fallback_date = earliest_row["date"].iloc[0]
-        LOGGER.warning(
-            "No market data row available on or before execution date; using earliest available date | "
-            "ticker=%s execution_date=%s fallback_date=%s",
-            ticker,
-            execution_date,
-            fallback_date.date(),
-        )
-        market_daily = earliest_row
-    
-    # Flatten and aggregate EONET disaster data
+    stock_out_path = PROCESSED_DIR / f"fact_stock_daily_{ticker}_{execution_date}.csv"
+    if not market_daily.empty:
+        row = market_daily.iloc[0]
+        stock_df = pd.DataFrame([{
+            "date_key": str(row["date_normalized"]),
+            "ticker": ticker.upper(),
+            "stock_close_price": float(row["close"]),
+            "stock_volume": int(row["volume"])
+        }])
+        stock_df.to_csv(stock_out_path, index=False)
+        LOGGER.info("Stock fact output saved | ticker=%s path=%s rows=%s", ticker, stock_out_path, len(stock_df))
+    else:
+        pd.DataFrame(columns=["date_key", "ticker", "stock_close_price", "stock_volume"]).to_csv(stock_out_path, index=False)
+        LOGGER.info("Stock fact output saved (empty) | ticker=%s path=%s", ticker, stock_out_path)
+        
+    # 2. Build City Disaster CSV
     try:
         flattened_eonet = _flatten_eonet_events(eonet_path)
         cities_df = _load_city_reference()
-        flattened_eonet = _attach_nearest_city(flattened_eonet, cities_df)
-        LOGGER.info("EONET data flattened and enriched | rows=%s cities=%s", len(flattened_eonet), len(cities_df))
     except Exception as e:
-        LOGGER.exception("Failed to flatten/enrich EONET data")
+        LOGGER.exception("Failed to flatten EONET data")
         raise
+        
+    city_disaster_df = build_city_disaster_daily(flattened_eonet, cities_df, execution_date)
+    city_out_path = PROCESSED_DIR / f"fact_city_disaster_daily_{execution_date}.csv"
     
-    # Filter for relevant disaster categories
-    relevant_categories = ["Wildfires", "Severe Storms"]
-    disaster_daily = _aggregate_disaster_intensity(flattened_eonet, relevant_categories)
-    LOGGER.info("Disaster aggregation complete | unique_dates=%s", len(disaster_daily))
-    
-    # If no disaster data, create empty aggregation
-    if disaster_daily.empty:
-        disaster_daily = pd.DataFrame({
-            "date": [exec_ts.date()],
-            "active_disaster_count": [0],
-            "nearby_disaster_count": [0],
-            "nearest_city_id": [None],
-            "nearest_city_name": [None],
-            "nearest_city_country": [None],
-            "nearest_city_latitude": [None],
-            "nearest_city_longitude": [None],
-            "nearest_disaster_distance_km": [None],
-        })
-    
-    # Ensure date is in date format for merging
-    disaster_daily["date"] = pd.to_datetime(disaster_daily["date"]).dt.date
-    
-    # Merge market data with disaster data on date
-    merged = pd.merge(
-        market_daily,
-        disaster_daily,
-        left_on="date_normalized",
-        right_on="date",
-        how="left"
-    )
-    
-    # Fill missing disaster counts with 0
-    merged["active_disaster_count"] = merged["active_disaster_count"].fillna(0).astype(int)
-    merged["nearby_disaster_count"] = merged["nearby_disaster_count"].fillna(0).astype(int)
-    
-    # Extract company metadata
-    company_name, sector = _company_metadata(ticker)
-    
-    # Build final fact table
-    output_df = pd.DataFrame({
-        "date_key": merged["date_normalized"].astype(str),
-        "ticker": ticker.upper(),
-        "stock_close_price": merged["close"].astype(float),
-        "stock_volume": merged["volume"].astype("int64"),
-        "active_disaster_count": merged["active_disaster_count"],
-        "nearby_disaster_count": merged["nearby_disaster_count"],
-        "nearest_city_id": merged["nearest_city_id"],
-        "nearest_city_name": merged["nearest_city_name"],
-        "nearest_city_country": merged["nearest_city_country"],
-        "nearest_city_latitude": merged["nearest_city_latitude"],
-        "nearest_city_longitude": merged["nearest_city_longitude"],
-        "nearest_disaster_distance_km": merged["nearest_disaster_distance_km"],
-        "year": pd.to_datetime(merged["date_normalized"]).dt.year.astype(int),
-        "month": pd.to_datetime(merged["date_normalized"]).dt.month.astype(int),
-        "day": pd.to_datetime(merged["date_normalized"]).dt.day.astype(int),
-        "is_weekend": pd.to_datetime(merged["date_normalized"]).dt.dayofweek >= 5,
-        "company_name": company_name,
-        "sector": sector,
-    })
-    
-    # Save outputs
-    out_path = PROCESSED_DIR / f"fact_daily_impact_{ticker}_{execution_date}.csv"
-    output_df.to_csv(out_path, index=False)
-    LOGGER.info("Fact output saved | ticker=%s path=%s rows=%s", ticker, out_path, len(output_df))
+    # Overwrites on multiple tickers for same date, but contents are identical.
+    city_disaster_df.to_csv(city_out_path, index=False)
+    LOGGER.info("City disaster fact output saved | path=%s rows=%s", city_out_path, len(city_disaster_df))
     
     # Optional: Save the flattened EONET data for debugging/validation
     eonet_detail_path = PROCESSED_DIR / f"eonet_flattened_{execution_date}.csv"
     if not flattened_eonet.empty:
         flattened_eonet.to_csv(eonet_detail_path, index=False)
-        LOGGER.info("EONET detail output saved | path=%s rows=%s", eonet_detail_path, len(flattened_eonet))
     
     return {
-        "fact_path": str(out_path),
+        "fact_stock_path": str(stock_out_path),
+        "fact_city_disaster_path": str(city_out_path),
         "eonet_detail_path": str(eonet_detail_path),
     }
-
-
-def build_daily_dataset(market_path: str, eonet_path: str, ticker: str, execution_date: str) -> str:
-    """Backward-compatible wrapper returning only the fact dataset path."""
-    outputs = build_daily_datasets(
-        market_path=market_path,
-        eonet_path=eonet_path,
-        ticker=ticker,
-        execution_date=execution_date,
-    )
-    return outputs["fact_path"]
-
 
 def build_daily_datasets_cached(
     market_path: str,
@@ -461,41 +378,22 @@ def build_daily_datasets_cached(
     execution_date: str,
     force_reprocess: bool = False,
 ) -> dict:
-    """Cache-aware wrapper around build_daily_datasets.
-
-    On the first run for a given date×ticker the full transform executes and
-    writes ``fact_daily_impact_{ticker}_{execution_date}.csv`` to PROCESSED_DIR.
-    On subsequent runs the file is detected and returned immediately (cache hit),
-    reducing a 10-minute historical backfill to a few seconds.
-
-    Args:
-        market_path: Path to the raw market JSON file.
-        eonet_path: Path to the raw EONET JSON file.
-        ticker: Stock ticker symbol.
-        execution_date: Date string in YYYY-MM-DD format.
-        force_reprocess: When True, bypass the cache and re-run the full
-            transform even if the output file already exists.  Can also be
-            triggered by setting the ``FORCE_REPROCESS`` environment variable
-            to ``"true"``.
-
-    Returns:
-        Dictionary with ``fact_path`` and ``eonet_detail_path`` keys.
-    """
     env_force = os.getenv("FORCE_REPROCESS", "false").lower() == "true"
     should_force = force_reprocess or env_force
 
-    out_path = PROCESSED_DIR / f"fact_daily_impact_{ticker}_{execution_date}.csv"
+    stock_out_path = PROCESSED_DIR / f"fact_stock_daily_{ticker}_{execution_date}.csv"
+    city_out_path = PROCESSED_DIR / f"fact_city_disaster_daily_{execution_date}.csv"
     eonet_detail_path = PROCESSED_DIR / f"eonet_flattened_{execution_date}.csv"
 
-    if out_path.exists() and not should_force:
+    if stock_out_path.exists() and city_out_path.exists() and not should_force:
         LOGGER.info(
-            "Cache hit — skipping transform | ticker=%s date=%s path=%s",
+            "Cache hit — skipping transform | ticker=%s date=%s",
             ticker,
             execution_date,
-            out_path,
         )
         return {
-            "fact_path": str(out_path),
+            "fact_stock_path": str(stock_out_path),
+            "fact_city_disaster_path": str(city_out_path),
             "eonet_detail_path": str(eonet_detail_path),
         }
 

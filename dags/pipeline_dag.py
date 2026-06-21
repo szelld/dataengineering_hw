@@ -78,7 +78,7 @@ def _get_analysis_window(context: dict) -> tuple[str, str]:
     """Return the inclusive date window processed by a single DAG run."""
     dag_run = context.get("dag_run")
     default_start = os.getenv("ANALYSIS_START_DATE", "2024-12-01")
-    default_end = os.getenv("ANALYSIS_END_DATE", "2025-03-31")
+    default_end = os.getenv("ANALYSIS_END_DATE", "2025-02-28")
 
     if dag_run and dag_run.conf:
         start_date = dag_run.conf.get("analysis_start_date", default_start)
@@ -98,20 +98,34 @@ def _get_analysis_window(context: dict) -> tuple[str, str]:
 def _get_analysis_window_adaptive(context: dict) -> tuple[str, str]:
     """Return the analysis window for this run.
 
-    - **Backfill mode**: when the DAG run date is on or before ANALYSIS_END_DATE
-      the full configured historical window is returned so the pipeline processes
-      the Dec 2024 – Mar 2025 block.
-    - **Daily mode**: when the DAG run date is after ANALYSIS_END_DATE (i.e.
-      routine scheduled runs) only yesterday is returned, keeping each daily
-      execution lightweight.
+    The selection is **explicit-config first** so the historical LA wildfire
+    block can be backfilled on demand from any run date:
+
+    - **Backfill mode**: when the DAG run config requests it (``backfill: true``,
+      or explicit ``analysis_start_date`` / ``analysis_end_date``) the full
+      configured historical window is processed regardless of today's date.
+    - **Historical mode**: when the DAG run date itself falls on or before
+      ANALYSIS_END_DATE the configured window is processed.
+    - **Daily mode**: routine scheduled runs (no config, run date after the
+      historical window) process only yesterday, keeping each run lightweight.
     """
+    dag_run = context.get("dag_run")
+    conf = dag_run.conf if dag_run and dag_run.conf else {}
+
+    requested_backfill = bool(conf.get("backfill", False))
+    has_explicit_window = bool(
+        conf.get("analysis_start_date") or conf.get("analysis_end_date")
+    )
+    if requested_backfill or has_explicit_window:
+        return _get_analysis_window(context)
+
     ds = context["ds"]
     run_date = datetime.strptime(ds, "%Y-%m-%d")
-    default_end = os.getenv("ANALYSIS_END_DATE", "2025-03-31")
+    default_end = os.getenv("ANALYSIS_END_DATE", "2025-02-28")
     hist_end = datetime.strptime(default_end, "%Y-%m-%d")
 
     if run_date <= hist_end:
-        # Backfill / historical mode — process the full configured window.
+        # Historical mode — process the full configured window.
         return _get_analysis_window(context)
 
     # Daily mode — process only yesterday so each scheduled run is fast.
@@ -119,15 +133,14 @@ def _get_analysis_window_adaptive(context: dict) -> tuple[str, str]:
     return yesterday, yesterday
 
 
-def _business_dates_between(start_date: str, end_date: str) -> list[str]:
-    """Return weekdays in the inclusive analysis window."""
+def _dates_between(start_date: str, end_date: str) -> list[str]:
+    """Return all calendar dates in the inclusive analysis window."""
     start_dt = datetime.strptime(start_date, "%Y-%m-%d")
     end_dt = datetime.strptime(end_date, "%Y-%m-%d")
     dates = []
     current_dt = start_dt
     while current_dt <= end_dt:
-        if current_dt.weekday() < 5:
-            dates.append(current_dt.strftime("%Y-%m-%d"))
+        dates.append(current_dt.strftime("%Y-%m-%d"))
         current_dt += timedelta(days=1)
     return dates
 
@@ -183,7 +196,7 @@ def disaster_stock_correlation_pipeline():
         """Extract stock market data for disaster-sensitive industries."""
         context = get_current_context()
         analysis_start_date, analysis_end_date = _get_analysis_window_adaptive(context)
-        analysis_dates = _business_dates_between(analysis_start_date, analysis_end_date)
+        analysis_dates = _dates_between(analysis_start_date, analysis_end_date)
         tickers = _get_tickers(context)
         api_key = os.getenv("ALPHA_VANTAGE_API_KEY")
 
@@ -230,9 +243,9 @@ def disaster_stock_correlation_pipeline():
     def task_transform(payload: dict, eonet_path: str) -> dict:
         """Transform stock + disaster data into fact tables.
 
-        Uses the filesystem cache: if ``fact_daily_impact_{ticker}_{date}.csv``
-        already exists the heavy transform is skipped and the cached path is
-        returned immediately.  Pass ``{"force_reprocess": true}`` in the DAG
+        Uses the filesystem cache: if the processed fact CSVs for this
+        ``{ticker}_{date}`` already exist the heavy transform is skipped and the
+        cached paths are returned immediately.  Pass ``{"force_reprocess": true}`` in the DAG
         run configuration to bypass the cache (e.g. after changing transform
         logic).
         """
@@ -258,7 +271,10 @@ def disaster_stock_correlation_pipeline():
     @task(task_id="task_load")
     def task_load(processed_paths: dict) -> str:
         """Load transformed data into PostgreSQL data warehouse."""
-        return load_to_postgres(processed_file_path=processed_paths["fact_path"])
+        return load_to_postgres(
+            stock_path=processed_paths["fact_stock_path"],
+            city_path=processed_paths["fact_city_disaster_path"]
+        )
 
     # DAG task dependencies
     api_ok = task_check_api()

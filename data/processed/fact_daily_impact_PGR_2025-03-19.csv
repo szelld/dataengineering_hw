@@ -1,2 +1,0 @@
-date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
-2025-03-19,PGR,273.29,6077064,12,1,US-HOUSTON,Houston,United States,29.7604,-95.3698,73.94,2025,3,19,False,Progressive Corporation,Insurance

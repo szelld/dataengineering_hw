@@ -37,22 +37,30 @@ CREATE TABLE IF NOT EXISTS dim_city (
     longitude NUMERIC(9, 6)
 );
 
--- Fact Table: Daily Impact (Stock Performance + Disaster Intensity)
-CREATE TABLE IF NOT EXISTS fact_daily_impact (
+-- Fact Table 1: Stock Daily Performance
+CREATE TABLE IF NOT EXISTS fact_stock_daily (
     date_key DATE NOT NULL,
     ticker TEXT NOT NULL,
     stock_close_price NUMERIC(14, 4),
     stock_volume BIGINT,
+    updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW(),
+    CONSTRAINT fact_stock_daily_pk PRIMARY KEY (date_key, ticker),
+    CONSTRAINT fact_stock_daily_date_fk FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
+    CONSTRAINT fact_stock_daily_company_fk FOREIGN KEY (ticker) REFERENCES dim_company(ticker)
+);
+
+-- Fact Table 2: City Disaster Daily
+CREATE TABLE IF NOT EXISTS fact_city_disaster_daily (
+    date_key DATE NOT NULL,
+    city_id TEXT NOT NULL,
     active_disaster_count INTEGER DEFAULT 0,
     nearby_disaster_count INTEGER DEFAULT 0,
-    nearest_city_id TEXT,
-    nearest_city_name TEXT,
     nearest_disaster_distance_km NUMERIC(10, 2),
+    is_nearby_disaster BOOLEAN DEFAULT FALSE,
     updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW(),
-    CONSTRAINT fact_daily_impact_pk PRIMARY KEY (date_key, ticker),
-    CONSTRAINT fact_daily_impact_date_fk FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
-    CONSTRAINT fact_daily_impact_company_fk FOREIGN KEY (ticker) REFERENCES dim_company(ticker),
-    CONSTRAINT fact_daily_impact_city_fk FOREIGN KEY (nearest_city_id) REFERENCES dim_city(city_id)
+    CONSTRAINT fact_city_disaster_daily_pk PRIMARY KEY (date_key, city_id),
+    CONSTRAINT fact_city_disaster_daily_date_fk FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
+    CONSTRAINT fact_city_disaster_daily_city_fk FOREIGN KEY (city_id) REFERENCES dim_city(city_id)
 );
 
 -- Seed common EONET event categories for reference
@@ -92,34 +100,35 @@ SET city_name = EXCLUDED.city_name,
 
 CREATE OR REPLACE VIEW vw_daily_disaster_stock_impact AS
 SELECT
-    f.date_key,
+    s.date_key,
     d.year,
     d.month,
     d.day,
     c.ticker,
     c.company_name,
     c.sector,
-    f.stock_close_price,
-    f.stock_volume,
-    f.active_disaster_count,
-    f.nearby_disaster_count,
-    f.nearest_city_id,
-    COALESCE(city.city_name, f.nearest_city_name) AS nearest_city_name,
-    city.country AS nearest_city_country,
-    f.nearest_disaster_distance_km
-FROM fact_daily_impact f
-JOIN dim_date d ON d.date_key = f.date_key
-JOIN dim_company c ON c.ticker = f.ticker
-LEFT JOIN dim_city city ON city.city_id = f.nearest_city_id;
+    s.stock_close_price,
+    s.stock_volume,
+    city.city_id,
+    city.city_name,
+    city.country AS city_country,
+    fcd.active_disaster_count,
+    fcd.nearby_disaster_count,
+    fcd.nearest_disaster_distance_km
+FROM fact_stock_daily s
+JOIN dim_date d ON d.date_key = s.date_key
+JOIN dim_company c ON c.ticker = s.ticker
+JOIN fact_city_disaster_daily fcd ON fcd.date_key = s.date_key
+JOIN dim_city city ON city.city_id = fcd.city_id;
 
 CREATE OR REPLACE VIEW vw_stock_disaster_price_movement AS
 SELECT
     impact.*,
-    LAG(stock_close_price) OVER (PARTITION BY ticker ORDER BY date_key) AS previous_close_price,
+    LAG(stock_close_price) OVER (PARTITION BY ticker, city_id ORDER BY date_key) AS previous_close_price,
     ROUND(
         (
-            (stock_close_price - LAG(stock_close_price) OVER (PARTITION BY ticker ORDER BY date_key))
-            / NULLIF(LAG(stock_close_price) OVER (PARTITION BY ticker ORDER BY date_key), 0)
+            (stock_close_price - LAG(stock_close_price) OVER (PARTITION BY ticker, city_id ORDER BY date_key))
+            / NULLIF(LAG(stock_close_price) OVER (PARTITION BY ticker, city_id ORDER BY date_key), 0)
             * 100
         )::numeric,
         2
@@ -134,7 +143,7 @@ SELECT
     stock_close_price,
     active_disaster_count,
     nearby_disaster_count,
-    nearest_city_name,
+    city_name,
     nearest_disaster_distance_km
 FROM vw_daily_disaster_stock_impact
 WHERE sector = 'Insurance'
@@ -148,9 +157,24 @@ SELECT
     stock_close_price,
     active_disaster_count,
     nearby_disaster_count,
-    nearest_city_name,
+    city_name,
     nearest_disaster_distance_km
 FROM vw_daily_disaster_stock_impact
 WHERE sector = 'Insurance'
-  AND nearest_city_id = 'US-LOS_ANGELES'
+  AND city_id = 'US-LOS_ANGELES'
+  AND nearby_disaster_count > 0;
+
+CREATE OR REPLACE VIEW vw_la_disaster_insurance_risk_days AS
+SELECT
+    date_key,
+    ticker,
+    company_name,
+    stock_close_price,
+    active_disaster_count,
+    nearby_disaster_count,
+    city_name,
+    nearest_disaster_distance_km
+FROM vw_daily_disaster_stock_impact
+WHERE sector = 'Insurance'
+  AND city_id = 'US-LOS_ANGELES'
   AND nearby_disaster_count > 0;

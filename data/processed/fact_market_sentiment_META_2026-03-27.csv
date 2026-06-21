@@ -1,2 +1,0 @@
-date_key,ticker_id,open_price,close_price,volume,news_count,avg_sentiment_score,year,month,day,is_weekend,company_name,sector
-2026-03-26,META,582.49,547.54,35780131,0,0.0,2026,3,26,False,META,Unknown

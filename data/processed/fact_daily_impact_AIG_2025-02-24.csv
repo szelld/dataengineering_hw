@@ -1,2 +1,0 @@
-date_key,ticker,stock_close_price,stock_volume,active_disaster_count,nearby_disaster_count,nearest_city_id,nearest_city_name,nearest_city_country,nearest_city_latitude,nearest_city_longitude,nearest_disaster_distance_km,year,month,day,is_weekend,company_name,sector
-2025-02-24,AIG,78.57,4967907,10,0,US-DENVER,Denver,United States,39.7392,-104.9903,251.56,2025,2,24,False,American International Group,Insurance
