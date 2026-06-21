@@ -323,6 +323,125 @@ ORDER BY date_key, ticker;
             "settings": {},
             "layout": {"row": 14, "col": 6, "size_x": 18, "size_y": 8},
         },
+        # --- Rolling "Last 3 Months" section -------------------------------
+        # Mirrors the LA-wildfire plots above but on a dynamic trailing
+        # 3-month window (no backfill needed; empty where there is no data).
+        {
+            "name": "Latest Pipeline Data Date",
+            "display": "scalar",
+            "description": "Most recent calendar day loaded by the pipeline (updated by each daily/scheduled run).",
+            "sql": """
+SELECT MAX(date_key) AS latest_loaded_date
+FROM fact_city_disaster_daily;
+""",
+            "settings": {},
+            "layout": {"row": 22, "col": 0, "size_x": 6, "size_y": 4},
+        },
+        {
+            "name": "Peak LA Nearby Disasters (Last 3 Months)",
+            "display": "scalar",
+            "description": "Maximum single-day nearby disaster count for Los Angeles in the trailing 3 months.",
+            "sql": """
+SELECT MAX(nearby_disaster_count) AS peak_nearby_disasters
+FROM fact_city_disaster_daily
+WHERE city_id = 'US-LOS_ANGELES'
+  AND date_key >= (CURRENT_DATE - INTERVAL '3 months');
+""",
+            "settings": {},
+            "layout": {"row": 22, "col": 6, "size_x": 6, "size_y": 4},
+        },
+        {
+            "name": "Insurance Stock Closing Prices (Last 3 Months)",
+            "display": "line",
+            "description": "Daily closing price per insurer over the trailing 3 months.",
+            "sql": """
+SELECT date_key, ticker, stock_close_price
+FROM fact_stock_daily
+WHERE date_key >= (CURRENT_DATE - INTERVAL '3 months')
+ORDER BY date_key, ticker;
+""",
+            "settings": {
+                "graph.dimensions": ["date_key", "ticker"],
+                "graph.metrics": ["stock_close_price"],
+                "graph.x_axis.title_text": "Date",
+                "graph.y_axis.title_text": "Close price (USD)",
+            },
+            "layout": {"row": 26, "col": 0, "size_x": 12, "size_y": 7},
+        },
+        {
+            "name": "LA Nearby Disaster Count Over Time (Last 3 Months)",
+            "display": "line",
+            "description": "Daily count of natural-disaster events within the impact radius of Los Angeles over the trailing 3 months.",
+            "sql": """
+SELECT date_key, nearby_disaster_count
+FROM fact_city_disaster_daily
+WHERE city_id = 'US-LOS_ANGELES'
+  AND date_key >= (CURRENT_DATE - INTERVAL '3 months')
+ORDER BY date_key;
+""",
+            "settings": {
+                "graph.dimensions": ["date_key"],
+                "graph.metrics": ["nearby_disaster_count"],
+                "graph.x_axis.title_text": "Date",
+                "graph.y_axis.title_text": "Nearby disasters",
+            },
+            "layout": {"row": 26, "col": 12, "size_x": 12, "size_y": 7},
+        },
+        {
+            "name": "Insurance Daily % Price Change (LA) (Last 3 Months)",
+            "display": "line",
+            "description": "Day-over-day percentage change in close price for insurers (LA risk row) over the trailing 3 months.",
+            "sql": """
+SELECT date_key, ticker, pct_close_change
+FROM vw_stock_disaster_price_movement
+WHERE city_id = 'US-LOS_ANGELES'
+  AND pct_close_change IS NOT NULL
+  AND date_key >= (CURRENT_DATE - INTERVAL '3 months')
+ORDER BY date_key, ticker;
+""",
+            "settings": {
+                "graph.dimensions": ["date_key", "ticker"],
+                "graph.metrics": ["pct_close_change"],
+                "graph.x_axis.title_text": "Date",
+                "graph.y_axis.title_text": "% change",
+            },
+            "layout": {"row": 33, "col": 0, "size_x": 12, "size_y": 7},
+        },
+        {
+            "name": "Total Nearby Disasters by City (Last 3 Months)",
+            "display": "bar",
+            "description": "Total nearby disaster events per tracked city over the trailing 3 months.",
+            "sql": """
+SELECT c.city_name, SUM(f.nearby_disaster_count) AS total_nearby_disasters
+FROM fact_city_disaster_daily f
+JOIN dim_city c ON c.city_id = f.city_id
+WHERE f.date_key >= (CURRENT_DATE - INTERVAL '3 months')
+GROUP BY c.city_name
+ORDER BY total_nearby_disasters DESC;
+""",
+            "settings": {
+                "graph.dimensions": ["city_name"],
+                "graph.metrics": ["total_nearby_disasters"],
+                "graph.x_axis.title_text": "City",
+                "graph.y_axis.title_text": "Nearby disasters",
+            },
+            "layout": {"row": 33, "col": 12, "size_x": 12, "size_y": 7},
+        },
+        {
+            "name": "LA Disaster Risk Days Detail (Last 3 Months)",
+            "display": "table",
+            "description": "Insurer rows on days when Los Angeles had nearby disaster exposure in the trailing 3 months.",
+            "sql": """
+SELECT date_key, ticker, company_name, stock_close_price,
+       active_disaster_count, nearby_disaster_count,
+       city_name, nearest_disaster_distance_km
+FROM vw_la_disaster_insurance_risk_days
+WHERE date_key >= (CURRENT_DATE - INTERVAL '3 months')
+ORDER BY date_key, ticker;
+""",
+            "settings": {},
+            "layout": {"row": 40, "col": 0, "size_x": 24, "size_y": 8},
+        },
     ]
 
 
@@ -364,6 +483,16 @@ def main() -> None:
             "cards": len(dashcards),
         }
     )
+
+    public_url = os.getenv("MB_PUBLIC_URL", "http://localhost:3000").rstrip("/")
+    dashboard_url = f"{public_url}/dashboard/{dashboard_id}"
+    print("\n" + "=" * 60)
+    print("Metabase is ready. Log in with:")
+    print(f"  URL:       {public_url}")
+    print(f"  Username:  {USERNAME}")
+    print(f"  Password:  {PASSWORD}")
+    print(f"  Dashboard: {dashboard_url}")
+    print("=" * 60)
 
 
 if __name__ == "__main__":

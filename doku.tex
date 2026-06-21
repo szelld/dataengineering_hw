@@ -128,7 +128,7 @@ létezik, a katasztrófa-közelség viszont minden naptári napon, városonként
 \end{figure}
 
 A \texttt{dim\_company} a betöltés során automatikusan feltöltődik a
-ténytáblában szereplő tickerekből, így egy friss adattárház is teljesíti a
+ténytálbában szereplő tickerekből, így egy friss adattárház is teljesíti a
 \texttt{fact\_stock\_daily} idegenkulcs-megszorítását. A két ténytáblát
 elemzéshez SQL nézetek kötik össze (pl. \texttt{vw\_stock\_disaster\_price\_movement},
 amely \texttt{LAG()} ablakfüggvénnyel napi \% árváltozást is számol).
@@ -168,12 +168,12 @@ ORDER BY date_key;
 \end{tabular}
 \caption{Allstate (ALL) napi záróár és \%-os változás a tűzvész idején.}
 \end{table}
-
+\newpage
 \textbf{Értelmezés.} A bozóttüzek 2025. január 6--8. között Los Angelestől
 mindössze \mbox{20--36 km}-re voltak aktívak (\texttt{nearby\_disaster\_count} = 1).
 Ezzel egyidőben az Allstate árfolyama január 6-án $-2{,}89\%$-ot, majd január
 10-én $-5{,}64\%$-ot esett (191,80 USD $\rightarrow$ 180,99 USD), a forgalom
-pedig $\sim$2,4 millióról $\sim$4,6 millió darabra ugrott -- ez egyértelmű
+pedig $\sim$2,4 millióról $\sim$4,6 millió darabra ugrott, ami egyértelmű
 piaci reakció a várható kárkifizetésekre. Havi bontásban a januári átlagos
 aktív katasztrófaszám volt a legmagasabb az időszakban:
 
@@ -191,15 +191,7 @@ aktív katasztrófaszám volt a legmagasabb az időszakban:
 \caption{Havi katasztrófa-kitettség és átlagos biztosítói záróár.}
 \end{table}
 
-\textbf{Napi ütemezett futások.} A történeti \texttt{backfill} mellett a DAG
-\texttt{@daily} ütemezéssel önállóan is fut: minden ütemezett futás az
-előző napot tölti be (adaptív ablak), így az adattárház naprakész marad.
-A \ref{fig:airflow-daily}.~ábra a két legutóbbi napi futást mutatja az
-Airflow gráfnézetében -- mindkét futás \emph{minden} taskja sikeresen
-lefutott (\texttt{check\_api} $\rightarrow$
-\texttt{extract\_stocks}/\texttt{extract\_eonet} $\rightarrow$
-\texttt{transform} $\rightarrow$ \texttt{load}), a dinamikus task mapping
-(\texttt{[6]}) pedig a hat biztosító párhuzamos feldolgozását jelzi.
+
 
 \begin{figure}[ht]
 \centering
@@ -213,16 +205,23 @@ lefutott (\texttt{check\_api} $\rightarrow$
   \fbox{\includegraphics[width=\linewidth]{docs/img/airflow_run_2026-06-20.png}}\\[2pt]
   {\scriptsize (b) \texttt{scheduled\_\_2026-06-20} futás}
 \end{minipage}
-\caption{A két napi ütemezett (\texttt{@daily}) Airflow-futás gráfnézete --
-minden task állapota \emph{success}.}
+\caption{A két napi ütemezett (\texttt{@daily}) Airflow-futás gráfnézete,
+ahol minden task állapota \emph{success}.}
 \label{fig:airflow-daily}
 \end{figure}
 
-Az eredmények a Metabase \emph{LA Wildfire Insurance Impact} dashboardon
-vizualizálva is elérhetők (a Metabase nyitóoldalára kitűzve, lásd
-\ref{fig:dashboard}. ábra): biztosítói záróár-idősorok, az LA-közeli
-katasztrófák száma (jól látható a januári kiugrás), napi \%-os árváltozás,
-városonkénti kitettség, a csúcs-katasztrófaszám és egy részletező táblázat.
+\textbf{Napi ütemezett futások.} A történeti \texttt{backfill} mellett a DAG
+\texttt{@daily} ütemezéssel önállóan is fut: minden ütemezett futás az
+előző napot tölti be (adaptív ablak), így az adattárház naprakész marad.
+A \ref{fig:airflow-daily}.~ábra a két legutóbbi napi futást mutatja az
+Airflow gráfnézetében: mindkét futás \emph{minden} taskja sikeresen
+lefutott (\texttt{check\_api} $\rightarrow$
+\texttt{extract\_stocks}/\texttt{extract\_eonet} $\rightarrow$
+\texttt{transform} $\rightarrow$ \texttt{load}), a dinamikus task mapping
+(\texttt{[6]}) pedig a hat biztosító párhuzamos feldolgozását jelzi.
+
+\newpage
+
 
 \begin{figure}[ht]
 \centering
@@ -231,6 +230,13 @@ városonkénti kitettség, a csúcs-katasztrófaszám és egy részletező tábl
 betöltött adatokkal.}
 \label{fig:dashboard}
 \end{figure}
+
+
+Az eredmények a Metabase \emph{LA Wildfire Insurance Impact} dashboardon
+vizualizálva is elérhetők (a Metabase nyitóoldalára kitűzve, lásd
+\ref{fig:dashboard}. ábra): biztosítói záróár-idősorok, az LA-közeli
+katasztrófák száma (jól látható a januári kiugrás), napi \%-os árváltozás,
+városonkénti kitettség, a csúcs-katasztórfaszám és egy részletező táblázat. Ez a szakasz kizárólag a tűzvész időszakára van szűrve, ezért az újabb adatok itt nem jelennek meg; célja a projekt lényegének bemutatása. Alatta egy hasonló felépítésű szakasz található, amely az elmúlt három hónap adatait emeli ki.
 
 A további dokumentált SQL lekérdezések az \texttt{ANALYTICAL\_QUERIES.md}
 fájlban találhatók, a futtatás lépései pedig a \texttt{README.md}-ben.

@@ -221,24 +221,51 @@ Then open:
 
 ### 1. Load the historical LA wildfire window (one-time backfill)
 
-In Airflow, enable DAG `disaster_stock_correlation_pipeline`, then **Trigger DAG w/ config** with:
+Step-by-step in the Airflow UI:
+
+1. Open the Airflow UI at [http://localhost:8080](http://localhost:8080) and log in with `admin` / `admin`. (After a fresh `docker compose up -d`, wait ~2–3 minutes for the containers to finish booting before the UI responds.)
+2. On the **DAGs** list, find the row named `disaster_stock_correlation_pipeline`.
+3. Enable it by clicking the **toggle switch** on the left of that row (it turns blue/on). A paused DAG cannot be triggered.
+4. On the same row, look to the right under the **Actions** column and click the **▶ (Trigger DAG)** play button, then choose **"Trigger DAG w/ config"** from the dropdown. (You can also open the DAG first by clicking its name, then use the **▶** button in the top-right corner.)
+5. In the **Configuration JSON** text box on the trigger page, paste:
 
 ```json
 { "backfill": true, "force_reprocess": true }
 ```
 
+6. Click the **Trigger** button at the bottom.
+7. Open the **Grid** view (DAG name → *Grid* tab) to watch progress. The run finishes in roughly 10 minutes when every task square is dark green (success).
+
 This processes business days from `2024-12-01` to `2025-02-28` (the `ANALYSIS_START_DATE` / `ANALYSIS_END_DATE` window) for `ALL`, `CB`, `TRV`, `AIG`, `PGR`, and `BRK-B`. After it loads once, the daily schedule keeps the warehouse current with one new day per run.
+
+> **Tip:** On some Airflow builds the **▶** play button triggers the run immediately instead of opening the **"Trigger DAG w/ config"** dropdown. If that happens, open the trigger form directly by navigating your browser to:
+>
+> ```
+> http://localhost:8080/dags/disaster_stock_correlation_pipeline/trigger
+> ```
+>
+> This page always shows the **Configuration JSON** box. The config must be valid JSON, e.g. `{ "backfill": true, "force_reprocess": true }`. (If a run started without config by accident, just let it finish or mark it failed, then trigger again with config, the pipeline is idempotent.)
+
+#### Alternative: trigger from the command line
+
+If you prefer not to use the UI, trigger the same backfill via the Airflow CLI inside the container:
+
+```powershell
+docker compose exec airflow-scheduler airflow dags unpause disaster_stock_correlation_pipeline
+docker compose exec airflow-scheduler airflow dags trigger disaster_stock_correlation_pipeline --conf "{\"backfill\": true, \"force_reprocess\": true}"
+```
 
 ### 2. Build the Metabase dashboard
 
 Metabase data lives in the same Postgres instance, so it is reset by `docker compose down -v`. The provisioning script is idempotent: it performs first-run setup if needed (creating the admin user from the credentials below), connects the `disaster_dw` warehouse, and builds the **LA Wildfire Insurance Impact** dashboard.
 
-```bash
-docker compose exec -e MB_PASSWORD=<your_metabase_password> airflow-scheduler \
-  python /opt/airflow/scripts/create_metabase_dashboard.py
+Run it as a single line (this works in PowerShell and bash):
+
+```powershell
+docker compose exec -e MB_PASSWORD=NemAdomMeg2 airflow-scheduler python /opt/airflow/scripts/create_metabase_dashboard.py
 ```
 
-Defaults can be overridden with env vars (`MB_USERNAME`, `MB_BASE_URL`, `PG_*`). The script waits for Metabase to become healthy before provisioning.
+Replace `NemAdomMeg2` with your own password if you change it. Defaults can be overridden with env vars (`MB_USERNAME`, `MB_BASE_URL`, `PG_*`). The script waits for Metabase to become healthy before provisioning, then prints the dashboard URL when done.
 
 ### 3. Query the warehouse
 
