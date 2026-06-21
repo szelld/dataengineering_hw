@@ -11,6 +11,9 @@ __pycache__/
 logs/
 *.log
 
+# LaTeX source (kept local; the compiled Dataeng.pdf is what ships)
+doku.tex
+
 # LaTeX build artifacts
 *.aux
 *.out
