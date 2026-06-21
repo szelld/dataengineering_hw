@@ -23,6 +23,31 @@ Correlate the frequency and intensity of natural disasters with the stock prices
 
 ## Architecture Rationale
 
+```mermaid
+flowchart LR
+    subgraph Sources
+        EONET["NASA EONET API<br/>(semi-structured JSON)"]
+        STOCK["Stock prices<br/>(yfinance / Stooq / seed CSV)"]
+    end
+
+    subgraph Airflow["Apache Airflow (orchestration)"]
+        direction TB
+        EXTRACT["task_extract_*<br/>(extract)"] --> TRANSFORM["task_transform<br/>(pandas: flatten, clean, aggregate)"] --> LOAD["task_load<br/>(idempotent upsert)"]
+    end
+
+    subgraph Storage["Local file storage"]
+        RAW["data/raw/<br/>landing zone (JSON)"]
+        PROCESSED["data/processed/<br/>transform cache (CSV)"]
+    end
+
+    DW[("PostgreSQL<br/>star-schema warehouse")]
+    MB["Metabase<br/>(dashboard & SQL)"]
+
+    EONET --> EXTRACT
+    STOCK --> EXTRACT
+    EXTRACT --> RAW --> TRANSFORM --> PROCESSED --> LOAD --> DW --> MB
+```
+
 The pipeline follows a simple lakehouse-style pattern: source APIs are first persisted unchanged as JSON files in a local landing zone, then transformed with pandas into analysis-ready CSV files, and finally loaded into a PostgreSQL warehouse. This separates extraction, transformation, and loading so each stage can be inspected and rerun independently. The raw landing zone is useful for debugging API changes and for proving that the pipeline preserves the original semi-structured EONET payload before flattening.
 
 PostgreSQL is used as the warehouse because it is robust, SQL-native, easy to containerize, and supports upsert semantics (`ON CONFLICT`) for idempotent loads. The warehouse uses a dual-fact star schema: `fact_stock_daily` stores one closing-price observation per trading day and ticker, while `fact_city_disaster_daily` stores one disaster-proximity observation per calendar day and tracked city. They share the conformed `dim_date` dimension, and `dim_company`, `dim_city`, and `dim_event_category` provide descriptive context. This keeps analytical queries simple and makes the business question directly queryable from SQL or Metabase.
